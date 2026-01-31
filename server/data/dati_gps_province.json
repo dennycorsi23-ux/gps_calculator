@@ -1,0 +1,2732 @@
+{
+  "metadata": {
+    "titolo": "Punteggi GPS Prima Chiamata Primo Turno - Province Italiane",
+    "descrizione": "Confronto dei punteggi minimi GPS della prima chiamata del primo turno per tutte le province italiane",
+    "data_raccolta": "2024-12-12",
+    "totale_province": 105,
+    "province_con_dati": 90,
+    "province_senza_dati": 15
+  },
+  "province": [
+    {
+      "nome": "Agrigento",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://ag.usr.sicilia.it/conferimento-delle-supplenze-annuali-e-o-fino-al-termine-delle-attivita-didattiche-del-personale-docente-di-ogni-ordine-e-grado-a-s-2024-2025/",
+      "note": "Non è stato possibile estrarre i dati dal file PDF contenente le nomine a causa di problemi tecnici con il download e la visualizzazione del file. Il file è presente alla fonte URL indicata, ma non è stato possibile analizzarlo.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Alessandria",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "5.00-240.50",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.voglioinsegnare.it/graduatorie-gps/gps-Alessandria",
+      "note": "I dati sono stati estratti da un sito di terze parti che cita la pubblicazione ufficiale dell'USP di Alessandria del 29 agosto 2024. Non è stato possibile accedere direttamente ai file PDF ufficiali a causa di link non funzionanti (404 Not Found).",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "74.00"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "23.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "94.00"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "12.00"
+        },
+        {
+          "codice": "A046",
+          "punteggio_minimo": "12.00"
+        }
+      ]
+    },
+    {
+      "nome": "Ancona",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "38.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.istruzione-ancona.it/decreto-nomine-a-tempo-determinato-da-g-a-e-e-g-p-s-2024-25/",
+      "note": "I punteggi minimi sono stati estratti dal bollettino delle nomine a tempo determinato da G.A.E. e G.P.S. per l'anno scolastico 2024/2025 (Decreto prot.n. 7702 del 03/09/2024). Il punteggio minimo generale è il più basso tra tutte le classi di concorso e fasce che hanno ricevuto una nomina.",
+      "classi_concorso": [
+        {
+          "codice": "A011",
+          "punteggio_minimo": "70.0"
+        },
+        {
+          "codice": "A012",
+          "punteggio_minimo": "81.0"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "104.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "38.0"
+        }
+      ]
+    },
+    {
+      "nome": "Aosta",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://scuole.vda.it/graduatorie-regionali-supplenze-grs/biennio-anni-scolastici-2024-2025-e-2025-2026",
+      "note": "La provincia di Aosta utilizza le Graduatorie Regionali Supplenze (GRS) anziché le GPS. Non è stato possibile accedere al sito ufficiale della Sovrintendenza agli Studi della Valle d'Aosta (scuole.vda.it) a causa di un errore di connessione persistente (ERR_CONNECTION_CLOSED), impedendo l'estrazione dei punteggi minimi dalla documentazione relativa alla prima convocazione (agosto 2024) per l'a.s. 2024/2025.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Arezzo",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "19.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.arezzoistruzione.it/usparezzo/index.php/docenti/graduatorie/g-p-s/1247-pubblicazione-bollettino-turno-1-gps",
+      "note": "I dati sono stati estratti dal bollettino ufficiale in formato PDF (Bollettino_nomine_GPS_1.pdf) pubblicato dall'USP di Arezzo. Il punteggio minimo generale di 19.00 si riferisce alla classe di concorso ADEE (Sostegno Scuola Infanzia). Il bollettino riporta le nomine conferite per l'anno scolastico 2025/2026.",
+      "classi_concorso": [
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "19.0"
+        },
+        {
+          "codice": "A054",
+          "punteggio_minimo": "22.0"
+        },
+        {
+          "codice": "A042",
+          "punteggio_minimo": "25.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "34.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "92.0"
+        }
+      ]
+    },
+    {
+      "nome": "Ascoli Piceno",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.uspascolipiceno.it/wordpress/decreto-prot-9217-del-21-agosto-2024-202408211900-decreto-nomine-gps-dm-111-2024-usp-ascoli-piceno-e-fermo/",
+      "note": "I punteggi minimi si riferiscono al personale docente di sostegno (ADAA, ADEE, ADMM, ADSS) per la prima chiamata (turno 1) da GPS I fascia per l'anno scolastico 2024/2025. Non è stato possibile determinare un punteggio minimo generale unico per tutte le classi di concorso. I dati sono stati estratti dai bollettini PDF allegati al decreto dell'USP di Ascoli Piceno e Fermo.",
+      "classi_concorso": [
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "165.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "67.5"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "141.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "122.5"
+        }
+      ]
+    },
+    {
+      "nome": "Asti",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "7.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionepiemonte.it/alessandria-asti/gps-pubblicazione-esiti-fase1-asti/",
+      "note": "Nessuna",
+      "classi_concorso": [
+        {
+          "codice": "AO55",
+          "punteggio_minimo": "171.0"
+        },
+        {
+          "codice": "AS2C",
+          "punteggio_minimo": "139.0"
+        },
+        {
+          "codice": "B023",
+          "punteggio_minimo": "135.0"
+        },
+        {
+          "codice": "AI55",
+          "punteggio_minimo": "118.0"
+        },
+        {
+          "codice": "AJ55",
+          "punteggio_minimo": "116.0"
+        }
+      ]
+    },
+    {
+      "nome": "Avellino",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "53.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://atavellino.it/elenco-degli-aspiranti-risultati-assegnatari-di-incarico-a-tempo-determinato-da-gae-e-gps-per-la-s-2025-26-prospetto-dei-posti-disponibili-aggiornato-con-linserimento-di-nuove-catt/",
+      "note": "I dati sono stati estratti dal bollettino del primo turno di nomina GPS per l'a.s. 2025/2026. I punteggi minimi sono stati identificati come il punteggio più basso tra gli assegnatari per la specifica classe di concorso, indipendentemente dal tipo di contratto (annuale, fino al termine delle attività didattiche o spezzone) o dalla fascia (F1 o F2). Per le classi di concorso con posti di sostegno (ADAA, ADMM), il punteggio minimo è stato estratto dalla F1.",
+      "classi_concorso": [
+        {
+          "codice": "A003",
+          "punteggio_minimo": "87.5"
+        },
+        {
+          "codice": "A011",
+          "punteggio_minimo": "53.0"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "54.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "54.0"
+        },
+        {
+          "codice": "A040",
+          "punteggio_minimo": "73.0"
+        },
+        {
+          "codice": "A045",
+          "punteggio_minimo": "151.0"
+        },
+        {
+          "codice": "A060",
+          "punteggio_minimo": "75.5"
+        },
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "133.0"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "96.0"
+        }
+      ]
+    },
+    {
+      "nome": "Bari",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "29",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.uspbari.it/usp/individuazione-destinatari-della-proposta-di-stipula-del-contratto-a-tempo-determinato-da-gps-della-t-di-bari-per-la-s-20242025-turno-i.html",
+      "note": "I dati sono stati estratti dal Bollettino delle nomine del primo turno delle GPS per la provincia di Bari. I punteggi minimi si riferiscono all'ultimo candidato nominato per ciascuna classe di concorso nel primo turno.",
+      "classi_concorso": [
+        {
+          "codice": "A001",
+          "punteggio_minimo": "35"
+        },
+        {
+          "codice": "A012",
+          "punteggio_minimo": "29"
+        },
+        {
+          "codice": "A013",
+          "punteggio_minimo": "41"
+        }
+      ]
+    },
+    {
+      "nome": "Barletta-Andria-Trani",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "7.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionebat.it/2025/09/01/individuazione-destinatari-della-proposta-di-stipula-del-contratto-a-tempo-determinato-da-gpsdella-t-di-bari-per-la-s-2025-2026-turno-i/",
+      "note": "Dati estratti dal Bollettino Nomine GPS TURNO I (Nota AOOUSPBAT n. 0012101 del 01-09-2025) per l'a.s. 2025/2026. Il punteggio minimo per ogni c.d.c. è il punteggio più basso tra gli assegnati. Il punteggio minimo generale è 7.00.",
+      "classi_concorso": [
+        {
+          "codice": "A010",
+          "punteggio_minimo": "80.00"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "31.00"
+        },
+        {
+          "codice": "AAAA",
+          "punteggio_minimo": "10.00"
+        }
+      ]
+    },
+    {
+      "nome": "Belluno",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "18",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://belluno.istruzioneveneto.gov.it/news/area-amministrativa/proposte-di-stipula-di-contratto-a-tempo-determinato-docenti-ed-educativo-da-graduatorie-provinciali-per-le-supplenze-g-p-s-di-cui-allart-2-comma-5-lettera-a-e-b-dello-m-8/",
+      "note": "I dati sono stati estratti dal bollettino delle nomine del primo turno per l'anno scolastico 2025/2026. I punteggi minimi possono variare a seconda della classe di concorso e della fascia.",
+      "classi_concorso": [
+        {
+          "codice": "A028",
+          "punteggio_minimo": "30"
+        },
+        {
+          "codice": "A040",
+          "punteggio_minimo": "18"
+        },
+        {
+          "codice": "A041",
+          "punteggio_minimo": "21.5"
+        },
+        {
+          "codice": "A042",
+          "punteggio_minimo": "24"
+        },
+        {
+          "codice": "A044",
+          "punteggio_minimo": "29"
+        }
+      ]
+    },
+    {
+      "nome": "Benevento",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "4.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.uspbenevento.it/uat/2024/09/14/procedure-di-nomina-del-personale-docente-a-tempo-determinato-da-gae-e-gps-a-s-2024-25-ins-informatizzazione-nomine-supplenze-pubblicazione-primo-bollettino-aggiornato/",
+      "note": "Dati estratti dal primo bollettino aggiornato delle nomine GPS a.s. 2024/2025, Benevento. Il punteggio minimo è l'ultimo punteggio utile per la nomina in ciascuna classe di concorso.",
+      "classi_concorso": [
+        {
+          "codice": "A066",
+          "punteggio_minimo": "2015.00"
+        },
+        {
+          "codice": "AK55",
+          "punteggio_minimo": "1935.00"
+        },
+        {
+          "codice": "B003",
+          "punteggio_minimo": "1865.00"
+        },
+        {
+          "codice": "AW55",
+          "punteggio_minimo": "1655.00"
+        },
+        {
+          "codice": "AC55",
+          "punteggio_minimo": "1415.00"
+        }
+      ]
+    },
+    {
+      "nome": "Bergamo",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "N/D",
+      "fonte_url": "N/D",
+      "note": "Non è stato possibile reperire i dati relativi al primo turno di nomine GPS per la provincia di Bergamo per l'anno scolastico 2024/2025. I documenti ufficiali non sono più disponibili sui siti istituzionali e le fonti alternative non riportano i dati richiesti.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Biella",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "7.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.istruzionepiemonte.it/biella/personale-docente-pubblicazione-esito-primo-turno-di-nomina-da-gps-ogni-ordine-e-grado/",
+      "note": "I punteggi minimi si riferiscono all'ultima nomina utile per contratti annuali o fino al termine delle attività didattiche (31/08 o 30/06) del primo turno di nomina GPS, pubblicato il 29/08/2024. Il bollettino contiene anche nomine su spezzone, che sono state escluse dal calcolo del punteggio minimo generale e per classe di concorso, in quanto si cercano i punteggi minimi per contratti interi (annuali o fino al termine delle attività didattiche). ADEE e ADAA sono classi di concorso di sostegno.",
+      "classi_concorso": [
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "7.00"
+        },
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "14.00"
+        },
+        {
+          "codice": "EEEE",
+          "punteggio_minimo": "24.00"
+        },
+        {
+          "codice": "AA25",
+          "punteggio_minimo": "33.00"
+        },
+        {
+          "codice": "A048",
+          "punteggio_minimo": "35.00"
+        }
+      ]
+    },
+    {
+      "nome": "Bologna",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "5.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://bo.istruzioneer.gov.it/2025/08/30/nomine-a-t-d-aspiranti-docenti-ogni-ordine-e-grado-1-turno-gps-as-2025-26/",
+      "note": "I punteggi minimi sono stati estratti dal bollettino delle nomine del 1° turno GPS per l'a.s. 2025/2026. Il punteggio minimo generale è il più basso tra le classi di concorso che hanno avuto nomine.",
+      "classi_concorso": [
+        {
+          "codice": "A026",
+          "punteggio_minimo": "140.0"
+        },
+        {
+          "codice": "A037",
+          "punteggio_minimo": "131.0"
+        },
+        {
+          "codice": "A046",
+          "punteggio_minimo": "63.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "42.0"
+        },
+        {
+          "codice": "B020",
+          "punteggio_minimo": "5.0"
+        }
+      ]
+    },
+    {
+      "nome": "Brescia",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "27.50",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.mim.gov.it/web/brescia/-/nomine-a-tempo-determinato-da-gae-e-gps-esito-conferimento-nomine-a-t-d-da-di-i-e-ii-fascia-2",
+      "note": "I dati sono stati estratti dal \"Bollettino totale nomine.pdf\" relativo al conferimento delle nomine a tempo determinato da GAE e GPS. Il punteggio minimo generale è il più basso tra le nomine a tempo pieno (annuale o fino al termine delle attività didattiche) riscontrate nel bollettino. Non è un dato riepilogativo ufficiale, ma il risultato dell'analisi del bollettino di nomina.",
+      "classi_concorso": [
+        {
+          "codice": "A020",
+          "punteggio_minimo": "27.5"
+        },
+        {
+          "codice": "A045",
+          "punteggio_minimo": "74.5"
+        },
+        {
+          "codice": "A019",
+          "punteggio_minimo": "131.0"
+        }
+      ]
+    },
+    {
+      "nome": "Brindisi",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "33.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionebrindisi.it/primo-turno-supplenze-da-gps-posti-comuni-e-di-sostegno-tutti-gli-ordini-e-gradi-di-scuola-della-provincia-di-brindisi-a-s-2025-2026/?download=49757",
+      "note": "I dati si riferiscono al primo turno di supplenze da GPS per l'a.s. 2025/2026. L'estrazione dei punteggi minimi è stata effettuata tramite analisi del bollettino PDF, che presentava una formattazione complessa.",
+      "classi_concorso": [
+        {
+          "codice": "A028",
+          "punteggio_minimo": "122.0"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "55.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "143.0"
+        },
+        {
+          "codice": "A046",
+          "punteggio_minimo": "148.0"
+        }
+      ]
+    },
+    {
+      "nome": "Cagliari",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "7.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.uspcagliari.it/bollettino_totalenomine-1-9-25h1457privacy/",
+      "note": "Dati estratti dal bollettino di nomina del 01/09/2025. Il punteggio minimo generale è il più basso tra i punteggi minimi di ogni classe di concorso nominata. Il punteggio minimo generale di 7.00 è molto basso e potrebbe riferirsi a classi di concorso con pochissime nomine o a classi di concorso specifiche.",
+      "classi_concorso": [
+        {
+          "codice": "BB02",
+          "punteggio_minimo": "300.0"
+        },
+        {
+          "codice": "B016",
+          "punteggio_minimo": "191.0"
+        },
+        {
+          "codice": "AP55",
+          "punteggio_minimo": "187.5"
+        }
+      ]
+    },
+    {
+      "nome": "Caltanissetta",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "18.50",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://cl-en.usr.sicilia.it/conferimento-delle-supplenze-annuali-e-o-fino-al-termine-delle-attivita-didattiche-del-personale-docente-di-ogni-ordine-e-grado-a-s-2024-2025/",
+      "note": "I dati sono stati estratti dai bollettini di nomina per la prima chiamata (06/09/2024) delle GPS per la scuola secondaria di I e II grado. Il punteggio minimo generale di 18.50 si riferisce alla classe di concorso A034 (Scienze e Tecnologie Chimiche) in II fascia GPS.",
+      "classi_concorso": [
+        {
+          "codice": "A034",
+          "punteggio_minimo": "18.50"
+        },
+        {
+          "codice": "A022",
+          "punteggio_minimo": "79.00"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "143.00"
+        }
+      ]
+    },
+    {
+      "nome": "Campobasso",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://atcampobasso.it/argomento/nomine/",
+      "note": "Non è stato possibile reperire il primo bollettino delle nomine GPS per la provincia di Campobasso per l'anno scolastico 2024/2025. I documenti presenti sul sito dell'AT di Campobasso e su altri siti istituzionali si riferiscono a bollettini successivi o ad altre tipologie di graduatorie. Potrebbe essere che il primo bollettino non sia stato pubblicato o sia stato rimosso.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Caserta",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "21.00-181.50",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.uat-caserta.it/2025/09/01/bollettino-totale-delle-nomine-generato-dal-sistema-informativo-del-ministero-contenente-i-nominativi-dei-soggetti-destinatari-di-una-proposta-di-contratto-a-tempo-determinato/",
+      "note": "I dati sono stati estratti dal primo bollettino totale delle nomine per l'a.s. 2025/2026, pubblicato dall'AT di Caserta in data 1 Settembre 2025. I punteggi minimi sono i punteggi dell'ultimo nominato per ciascuna classe di concorso/fascia/tipo di posto (comune o sostegno). Il bollettino è un PDF immagine, l'estrazione è stata effettuata tramite analisi visiva.",
+      "classi_concorso": [
+        {
+          "codice": "A002 F1",
+          "punteggio_minimo": "109.0"
+        },
+        {
+          "codice": "A002 F2",
+          "punteggio_minimo": "68.0"
+        },
+        {
+          "codice": "A005 F2",
+          "punteggio_minimo": "42.0"
+        },
+        {
+          "codice": "A007 F1",
+          "punteggio_minimo": "101.0"
+        },
+        {
+          "codice": "A008 F1 S",
+          "punteggio_minimo": "92.0"
+        },
+        {
+          "codice": "A010 F2",
+          "punteggio_minimo": "78.0"
+        },
+        {
+          "codice": "A011 F1",
+          "punteggio_minimo": "115.5"
+        },
+        {
+          "codice": "A013 F1 S",
+          "punteggio_minimo": "101.5"
+        },
+        {
+          "codice": "A014 F2",
+          "punteggio_minimo": "47.0"
+        },
+        {
+          "codice": "A018 F1 S",
+          "punteggio_minimo": "181.5"
+        },
+        {
+          "codice": "A019 F1",
+          "punteggio_minimo": "101.0"
+        },
+        {
+          "codice": "A020 F2",
+          "punteggio_minimo": "117.5"
+        },
+        {
+          "codice": "A021 F1",
+          "punteggio_minimo": "80.0"
+        },
+        {
+          "codice": "A023 F2",
+          "punteggio_minimo": "35.0"
+        },
+        {
+          "codice": "A026 F1 S",
+          "punteggio_minimo": "55.0"
+        },
+        {
+          "codice": "A027 F1 S",
+          "punteggio_minimo": "132.5"
+        },
+        {
+          "codice": "A028 F1",
+          "punteggio_minimo": "99.0"
+        },
+        {
+          "codice": "A031 F2",
+          "punteggio_minimo": "21.0"
+        },
+        {
+          "codice": "A034 F2",
+          "punteggio_minimo": "70.0"
+        },
+        {
+          "codice": "A037 F1 S",
+          "punteggio_minimo": "98.0"
+        }
+      ]
+    },
+    {
+      "nome": "Catania",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "36.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.uilscuolacatania.it/site/wp-content/uploads/2025/10/ELENCO-INDIVIDUAZIONE-NOMINE-DOCENTI-A-T.D.-A.S.-2025-2026-1.pdf",
+      "note": "I dati si riferiscono al primo bollettino di nomina (Turno 2) per l'a.s. 2025/2026, pubblicato il 10 ottobre 2025. Il punteggio minimo generale è un'indicazione del punteggio più basso per una supplenza al 30/06 o 31/08 su posto comune, ma i punteggi variano notevolmente per classe di concorso e tipo di posto (comune/sostegno). Il punteggio più basso in assoluto per una nomina al 30/06 è 36.00 (A027).",
+      "classi_concorso": [
+        {
+          "codice": "A009",
+          "punteggio_minimo": "56.0"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "36.0"
+        },
+        {
+          "codice": "A040",
+          "punteggio_minimo": "41.0"
+        },
+        {
+          "codice": "A060",
+          "punteggio_minimo": "47.0"
+        },
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "76.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "66.5"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "66.0"
+        }
+      ]
+    },
+    {
+      "nome": "Catanzaro",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "5.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.istruzione.calabria.it/catanzaro/personale-docente-supplenze-annuali-sino-al-termine-della-attivita-didattiche-pubblicazione-primo-bollettino/",
+      "note": "I dati sono stati estratti dal file Excel \"Bollettino_TotaleNomine_I_cz.xlsx\" allegato al primo bollettino di nomine per l'a.s. 2024/2025. Il punteggio minimo generale di 5.00 è relativo alla classe di concorso B018 (Laboratori di scienze e tecnologie tessili e dell'abbigliamento).",
+      "classi_concorso": [
+        {
+          "codice": "A018",
+          "punteggio_minimo": "178.00"
+        },
+        {
+          "codice": "AO55",
+          "punteggio_minimo": "171.00"
+        },
+        {
+          "codice": "A045",
+          "punteggio_minimo": "166.00"
+        },
+        {
+          "codice": "B012",
+          "punteggio_minimo": "162.00"
+        },
+        {
+          "codice": "AI24",
+          "punteggio_minimo": "162.00"
+        }
+      ]
+    },
+    {
+      "nome": "Chieti",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "20.50",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.istruzionechietipescara.it/2024/08/30/personale-docente-esito-primo-processo-ins-per-nomine-a-tempo-determinato-a-s-2024-25/",
+      "note": "Nessuna",
+      "classi_concorso": [
+        {
+          "codice": "A021",
+          "punteggio_minimo": "191.00"
+        },
+        {
+          "codice": "A054",
+          "punteggio_minimo": "136.00"
+        },
+        {
+          "codice": "A012",
+          "punteggio_minimo": "135.00"
+        }
+      ]
+    },
+    {
+      "nome": "Como",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "N/D",
+      "fonte_url": "https://www.mim.gov.it/web/como/home",
+      "note": "Non è stato possibile trovare il primo bollettino delle nomine GPS per la provincia di Como per gli anni scolastici 2024/2025 o 2025/2026. Sono stati trovati riferimenti a bollettini successivi e a rettifiche, ma non è stato possibile accedere ai dati del primo turno. La ricerca è stata estesa anche all'anno scolastico precedente senza successo.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Cosenza",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "4.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.istruzione.calabria.it/cosenza/aoouspcs14029-20240906/",
+      "note": "I dati sono stati estratti dal file Excel 'Bollettino_TotaleNomine.xls' allegato al decreto ufficiale. Il punteggio minimo indicato per ciascuna classe di concorso corrisponde al punteggio dell'ultimo nominato in quel turno. Il punteggio minimo generale di 4.00 è relativo alla classe di concorso ADAA (Sostegno Scuola Infanzia).",
+      "classi_concorso": [
+        {
+          "codice": "A046",
+          "punteggio_minimo": "121.00"
+        },
+        {
+          "codice": "A022",
+          "punteggio_minimo": "29.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "26.00"
+        }
+      ]
+    },
+    {
+      "nome": "Cremona",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "12.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.mim.gov.it/web/cremona/-/nomine-a-tempo-determinato-a-s-2025-26",
+      "note": "I dati sono stati estratti dal \"Bollettino Nomine 1.pdf\" pubblicato dall'UST di Cremona in data 30/08/2025, relativo alle nomine a tempo determinato da GPS per l'a.s. 2025/2026. Il punteggio minimo generale di 12.00 si riferisce alla classe di concorso A034 (Scienze e Tecnologie Chimiche) in prima fascia GPS. Il bollettino include sia posti comuni che di sostegno.",
+      "classi_concorso": [
+        {
+          "codice": "A011",
+          "punteggio_minimo": "70.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "40.0"
+        },
+        {
+          "codice": "A045",
+          "punteggio_minimo": "58.5"
+        },
+        {
+          "codice": "A034",
+          "punteggio_minimo": "12.0"
+        }
+      ]
+    },
+    {
+      "nome": "Crotone",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "10.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.istruzione.calabria.it/crotone/individuazioni-per-contratti-a-tempo-determinato-personale-docente-da-gae-e-da-gps/",
+      "note": "I dati sono stati estratti dal bollettino di nomine a tempo determinato (probabilmente il primo turno) pubblicato dall'Ambito Territoriale di Crotone. L'analisi si basa sul punteggio minimo assegnato per ciascuna classe di concorso.",
+      "classi_concorso": [
+        {
+          "codice": "A015",
+          "punteggio_minimo": "153.5"
+        },
+        {
+          "codice": "B020",
+          "punteggio_minimo": "153.0"
+        },
+        {
+          "codice": "B024",
+          "punteggio_minimo": "142.0"
+        },
+        {
+          "codice": "AM56",
+          "punteggio_minimo": "140.0"
+        },
+        {
+          "codice": "AAAA",
+          "punteggio_minimo": "139.0"
+        }
+      ]
+    },
+    {
+      "nome": "Cuneo",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "39.50",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionepiemonte.it/cuneo/nomine-gps-fase-1-2/",
+      "note": "Dati estratti dal bollettino NOMINE GPS – FASE 1 (6 Agosto 2025) per l'a.s. 2025/2026. I punteggi si riferiscono all'ultimo nominato per ciascuna classe di concorso di sostegno. Non sono state trovate nomine per posto comune in questa fase.",
+      "classi_concorso": [
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "39.50"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "61.00"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "89.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "42.00"
+        }
+      ]
+    },
+    {
+      "nome": "Enna",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "23.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://cl-en.usr.sicilia.it/conferimento-delle-supplenze-annuali-e-o-fino-al-termine-delle-attivita-didattiche-del-personale-docente-di-ogni-ordine-e-grado-a-s-2024-2025/",
+      "note": "I dati sono stati estratti dal bollettino di nomina per la scuola secondaria di I e II grado di Enna, pubblicato dall'USP Caltanissetta ed Enna. Il punteggio minimo generale di 23.00 si riferisce alla classe di concorso A012 (ex A022) in II Fascia GPS. I punteggi minimi per le classi di concorso esempio sono: A011 (F2): 41.0; A012 (F2): 23.0; A027 (F1): 66.0; A041 (F2): 76.5; A045 (F2): 67.0. Non è stato possibile analizzare i bollettini per Infanzia e Primaria a causa di problemi con i file ZIP.",
+      "classi_concorso": [
+        {
+          "codice": "A011",
+          "punteggio_minimo": "41.0"
+        },
+        {
+          "codice": "A012",
+          "punteggio_minimo": "23.0"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "66.0"
+        },
+        {
+          "codice": "A041",
+          "punteggio_minimo": "76.5"
+        },
+        {
+          "codice": "A045",
+          "punteggio_minimo": "67.0"
+        }
+      ]
+    },
+    {
+      "nome": "Fermo",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "67.50",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.uspascolipiceno.it/wordpress/decreto-prot-9217-del-21-agosto-2024-202408211900-decreto-nomine-gps-dm-111-2024-usp-ascoli-piceno-e-fermo/",
+      "note": "I bollettini pubblicati dall'USP di Ascoli Piceno e Fermo per il primo turno di nomine GPS (Decreto Prot. 9217 del 21 agosto 2024) si riferiscono esclusivamente a posti di Sostegno. Non sono stati trovati bollettini per le classi di concorso comuni (A-XX). Il punteggio minimo generale si riferisce alla classe ADEE (Sostegno Scuola Primaria) con riserva.",
+      "classi_concorso": [
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "165.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "67.5"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "141.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "122.5"
+        }
+      ]
+    },
+    {
+      "nome": "Ferrara",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "33.50",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://fe.istruzioneer.gov.it/2025/09/01/nomine-a-td-da-gps-docenti-di-ogni-ordine-e-grado-a-s-2024-25-i-turno-2/",
+      "note": "I dati sono stati estratti dal bollettino di nomina del I turno GPS per l'a.s. 2025/2026 (pubblicato a Settembre 2025). Il punteggio minimo generale è il più basso tra le classi di concorso analizzate. Il bollettino è un PDF di 20 pagine. I punteggi minimi sono stati ricavati dal punteggio dell'ultimo nominato per la classe di concorso e fascia.",
+      "classi_concorso": [
+        {
+          "codice": "A011",
+          "punteggio_minimo": "39.5"
+        },
+        {
+          "codice": "A020",
+          "punteggio_minimo": "49.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "67.0"
+        }
+      ]
+    },
+    {
+      "nome": "Firenze",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "8.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.ust.fi.it/pubblicazione-bollettino-turno-1/",
+      "note": "Nessuna",
+      "classi_concorso": [
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "192.0"
+        },
+        {
+          "codice": "A020",
+          "punteggio_minimo": "181.0"
+        },
+        {
+          "codice": "A051",
+          "punteggio_minimo": "174.0"
+        },
+        {
+          "codice": "AS48",
+          "punteggio_minimo": "134.5"
+        },
+        {
+          "codice": "AM12",
+          "punteggio_minimo": "132.0"
+        }
+      ]
+    },
+    {
+      "nome": "Foggia",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "5.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.ustfoggia.it/2025/09/01/conferimento-delle-supplenze-da-g-a-e-e-da-g-p-s-per-la-s-2025-2026-i-turno/",
+      "note": "I dati sono stati estratti dal bollettino delle nomine del I turno per l'a.s. 2025/2026. Il punteggio minimo generale di 5.00 si riferisce alla classe di concorso PPPP (Personale Educativo). I punteggi minimi per le classi di concorso più comuni (posto comune e sostegno) sono significativamente più alti.",
+      "classi_concorso": [
+        {
+          "codice": "AAAA",
+          "punteggio_minimo": "166.0"
+        },
+        {
+          "codice": "EEEE",
+          "punteggio_minimo": "113.5"
+        },
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "77.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "30.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "118.0"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "56.0"
+        }
+      ]
+    },
+    {
+      "nome": "Forlì-Cesena",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://fc.istruzioneer.gov.it/2025/08/30/supplenze-personale-docente-ed-educativo-a-s-2025-2026-turno-30-08-2025/",
+      "note": "Non è stato possibile accedere al bollettino PDF contenente i punteggi minimi (esiti nomine a t.d. - 30.08.2025) a causa di un errore 404 sul sito dell'USP di Forlì-Cesena. Il primo turno di nomine per l'a.s. 2025/2026 è stato identificato al 30/08/2025, ma i dati specifici non sono stati estraibili. Il bollettino contiene solo le nomine effettuate, non i punteggi minimi di scorrimento.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Frosinone",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "9.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.uspistruzione.fr.it/wp2/primo-bollettino-nomine-da-gps-della-provincia-di-frosinone-per-lanno-scolastico-2025-2026.html",
+      "note": "I dati sono stati estratti dal 'PRIMO BOLLETTINO GPS 2025-2026 prov. FROSINONE' pubblicato dall'ATP di Frosinone. Il punteggio minimo generale è il più basso tra tutti i punteggi minimi per classe di concorso e fascia. Il bollettino include anche nomine su spezzoni orari e posti con riserva. Sono stati considerati solo i punteggi minimi > 0.0.",
+      "classi_concorso": [
+        {
+          "codice": "A045",
+          "punteggio_minimo": "25.0"
+        },
+        {
+          "codice": "A063",
+          "punteggio_minimo": "14.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "31.0"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "12.0"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "19.0"
+        }
+      ]
+    },
+    {
+      "nome": "Genova",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.istruzionegenova.gov.it/pagine/gps-2024---i-turno---assegnazioni",
+      "note": "Non è stato possibile estrarre i dati a causa di difficoltà tecniche nell'accesso e nell'analisi dei file PDF contenenti i bollettini delle nomine. I file sono accessibili solo tramite un visualizzatore PDF incorporato che non permette il download diretto o l'estrazione del testo. Tentativi di scaricare i file tramite comandi da shell e di estrarre gli URL diretti tramite la console del browser non hanno avuto successo.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Gorizia",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "34.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-gorizia/notizie/ESITO-NOMINE-DOCENTI-A-T.D.-DA-GPS-A.S.-2024-25-AT-Gorizia/",
+      "note": "I dati sono stati estratti dal bollettino delle nomine a tempo determinato da GPS per l'a.s. 2024/2025, pubblicato dall'Ufficio Scolastico Territoriale di Gorizia. Il punteggio minimo generale è il più basso riscontrato tra tutte le classi di concorso nominate. Il punteggio minimo per la classe A026 (Matematica) è 34.0, mentre per il sostegno (ADSS) è 92.0.",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "59.0"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "34.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "80.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "92.0"
+        }
+      ]
+    },
+    {
+      "nome": "Grosseto",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "4.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.ufficioscolasticogrosseto.it/uff7/index.php/pubblicazioni/3856-30-08-2025-decreto-pubblicazione-individuazione-dei-destinatari-di-contratto-a-tempo-determinato-da-gps-a-s-2025-26-personale-docente-ed-educativo-bollettino-n-1",
+      "note": "I dati si riferiscono al Bollettino n. 1 (primo turno di nomina) delle GPS per l'a.s. 2025/2026, pubblicato il 30/08/2025. Il punteggio minimo generale di 4.00 è relativo alla classe EEEM (F1).",
+      "classi_concorso": [
+        {
+          "codice": "B003",
+          "punteggio_minimo": "217.5"
+        },
+        {
+          "codice": "AL55",
+          "punteggio_minimo": "206.0"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "176.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "53.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "8.0"
+        }
+      ]
+    },
+    {
+      "nome": NaN,
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "N/D",
+      "fonte_url": "N/D",
+      "note": "",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Isernia",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "29.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://atpisernia.it/conferimento-nomine-a-tempo-determinato-su-posti-curriculari-e-posti-di-sostegno-del-personale-docente-da-gae-e-da-gps-a-s-2025-2026-scuola-dellinfanzia-primaria-seco",
+      "note": "Il punteggio minimo generale è stato estratto dal bollettino del \"Primo Turno\" di nomine a tempo determinato da GPS per l'a.s. 2025/2026. Il punteggio più basso è 29.0 per la classe di concorso A023 (Lingua Italiana per Discenti di Lingua Straniera - Alloglotti). I punteggi sono stati estratti dal file PDF \"Bollettino 1 turno supplenze\" allegato alla comunicazione ufficiale.",
+      "classi_concorso": [
+        {
+          "codice": "A023",
+          "punteggio_minimo": "29.0"
+        },
+        {
+          "codice": "A041",
+          "punteggio_minimo": "42.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "146.0"
+        },
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "65.0"
+        }
+      ]
+    },
+    {
+      "nome": "L'Aquila",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "30.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://lnx.csalaquila.it/wp/2025/08/30/bollettino-n-1-nomine-a-tempo-determinato-gps-3/",
+      "note": "I dati sono stati estratti dal \"Bollettino N. 1 nomine a tempo determinato GPS\" pubblicato dall'USP L'Aquila in data 30 Agosto 2025. Il bollettino riporta le nomine effettuate e il punteggio dell'ultimo nominato per ciascuna classe di concorso e fascia. Il punteggio minimo generale è il più basso tra tutti i punteggi dell'ultimo nominato in prima fascia (F1). Il bollettino è relativo all'anno scolastico 2025/2026.",
+      "classi_concorso": [
+        {
+          "codice": "A011 (F1)",
+          "punteggio_minimo": "80.0"
+        },
+        {
+          "codice": "A028 (F1)",
+          "punteggio_minimo": "65.0"
+        },
+        {
+          "codice": "ADSS (F1)",
+          "punteggio_minimo": "30.0"
+        },
+        {
+          "codice": "B014 (F1)",
+          "punteggio_minimo": "13.0"
+        }
+      ]
+    },
+    {
+      "nome": "La Spezia",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionelaspezia.gov.it/pagine/individuazione-destinatari-nomine-per-supplenza-da-gps---i-turno--",
+      "note": "Non è stato possibile estrarre i punteggi minimi in quanto il file XLSX contenente il bollettino di nomina (\"Bollettino_TotaleNomine1 privacy.xlsx\") è protetto da un sistema di autenticazione (redirect a cspace.spaggiari.eu/auth.php) e non è stato trovato su fonti alternative. Il file PDF allegato è un decreto di pubblicazione che non contiene le tabelle dei punteggi.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Latina",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "85.50-120.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.csalatina.it/jclub/images/stories/Allegato_1_-_Nomina_Tempo_Determinato_da_GPS_-_Turno_1_A.S._2025-26.pdf",
+      "note": "I dati si riferiscono al primo turno di nomine GPS per l'A.S. 2025/2026. Il punteggio minimo generale è un range che va dal punteggio più basso trovato in F2 (85.50) al punteggio più alto trovato in F1 (120.00). La maggior parte delle classi di concorso in F1 ha un punteggio minimo di 120.00, indicando che le nomine sono arrivate fino al punteggio massimo della fascia. La classe A001 in F1 ha un punteggio di 92.00, mentre in F2 ha un punteggio di 85.50.",
+      "classi_concorso": [
+        {
+          "codice": "A001",
+          "punteggio_minimo": "92.0"
+        },
+        {
+          "codice": "A007",
+          "punteggio_minimo": "120.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "120.0"
+        },
+        {
+          "codice": "A022",
+          "punteggio_minimo": "120.0"
+        },
+        {
+          "codice": "A046",
+          "punteggio_minimo": "120.0"
+        }
+      ]
+    },
+    {
+      "nome": "Lecce",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "85.50",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.ustlecce.it/index.php/personale-docente",
+      "note": "I dati sono stati estratti da un bollettino di scorrimento (Fase 15) del 17 dicembre 2024 per l'a.s. 2024/2025, che rappresenta uno dei primi turni di nomina. Non è stato possibile trovare il bollettino della \"prima chiamata\" assoluta, ma questo fornisce un punteggio minimo di riferimento per le classi di concorso menzionate. Il punteggio minimo generale è un'indicazione basata sugli esempi trovati.",
+      "classi_concorso": [
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "92.0"
+        },
+        {
+          "codice": "A012",
+          "punteggio_minimo": "85.50"
+        },
+        {
+          "codice": "A022",
+          "punteggio_minimo": "85.50"
+        }
+      ]
+    },
+    {
+      "nome": "Lecco",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.voglioinsegnare.it/graduatorie-gps/gps-Lecco",
+      "note": "Non è stato possibile reperire il bollettino ufficiale con i punteggi minimi di nomina della prima chiamata del primo turno per la provincia di Lecco. I dati estratti dal sito aggregatore sono i punteggi minimi di inclusione nelle Graduatorie Provinciali per le Supplenze (GPS) pubblicate dall'USP di Lecco il 14 agosto 2024, e non i punteggi di taglio per le nomine. Non è stato trovato un punteggio minimo generale di nomina.",
+      "classi_concorso": [
+        {
+          "codice": "A001",
+          "punteggio_minimo": "12.00"
+        },
+        {
+          "codice": "A022",
+          "punteggio_minimo": "22.00"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "12.00"
+        },
+        {
+          "codice": "A046",
+          "punteggio_minimo": "12.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "12.00"
+        }
+      ]
+    },
+    {
+      "nome": "Livorno",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "9.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.ustli.it/usp_livorno/index.php/docenti/gps/2102-decreto-nomine-da-gps-1-turno",
+      "note": "I dati sono stati estratti dal bollettino di nomina del 1° turno GPS per l'a.s. 2025/2026. Il punteggio minimo generale di 9.00 è relativo a classi di concorso di sostegno (ADSS e AS2B).",
+      "classi_concorso": [
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "9.00"
+        },
+        {
+          "codice": "AS2B",
+          "punteggio_minimo": "9.00"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "12.00"
+        }
+      ]
+    },
+    {
+      "nome": "Lodi",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "34.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.mim.gov.it/web/lodi/-/decreto-pubblicazione-individuazione-dei-destinatari-di-contratto-a-tempo-determinato-da-gps-a-s-2025-2026-personale-docente-e-educativo",
+      "note": "I punteggi minimi sono stati estratti dal \"Bollettino definitivo.pdf\" allegato al decreto di individuazione dei destinatari di contratto a tempo determinato da GPS per l'a.s. 2025/2026. Il punteggio minimo generale è il più basso riscontrato tra le classi di concorso analizzate (A028 F2).",
+      "classi_concorso": [
+        {
+          "codice": "A028 F1",
+          "punteggio_minimo": "92.0"
+        },
+        {
+          "codice": "A028 F2",
+          "punteggio_minimo": "34.0"
+        },
+        {
+          "codice": "A019 F1",
+          "punteggio_minimo": "93.0"
+        },
+        {
+          "codice": "A019 F2",
+          "punteggio_minimo": "82.0"
+        }
+      ]
+    },
+    {
+      "nome": "Lucca",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "28.50",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "http://www.ustlucca.it/2025/08/30/personale-docente-nomine-gps-a-tempo-determinato-turno-1-a-s-2025-26-del-30-08-2025/",
+      "note": "I dati si riferiscono al Turno 1 di nomine a tempo determinato da GPS per l'a.s. 2025/2026, pubblicati il 30/08/2025. Il punteggio minimo generale è stato estrapolato dal bollettino delle nomine, che elenca i docenti individuati e il loro punteggio. Non è stato trovato un documento riepilogativo dei soli punteggi minimi.",
+      "classi_concorso": [
+        {
+          "codice": "A028",
+          "punteggio_minimo": "28.50"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "32.00"
+        },
+        {
+          "codice": "A011",
+          "punteggio_minimo": "51.50"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "102.00"
+        }
+      ]
+    },
+    {
+      "nome": "Macerata",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://nuvola.madisoft.it/file/api/public-file-preview/MCIC820004/9c13dd74-caae-4bce-92fc-770b85a1c173",
+      "note": "Il sito ufficiale dell'USP Macerata (uspmc.sinp.net) non è stato raggiungibile. Il documento trovato è un decreto di nomina a tempo determinato (Turno 2) per l'A.S. 2024/2025, non il bollettino con i punteggi minimi della prima chiamata del primo turno.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Mantova",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "32.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.mim.gov.it/web/mantova/-/nomine-a-tempo-determinato-da-gps-a-s-25-26-esito-conferimento-nomine-da-i-e-ii-fascia-1",
+      "note": "I dati sono stati estratti dal bollettino delle nomine a tempo determinato da GPS per l'a.s. 2025/2026, pubblicato dall'Ufficio Scolastico Territoriale di Mantova. Il punteggio minimo generale di 32.0 è relativo alla classe di concorso ADSS (Sostegno II Grado) per un aspirante con riserva per riconoscimento del titolo estero. Il punteggio minimo senza riserva per ADSS è 38.5. Il punteggio minimo per posto comune è 73.0 (A011).",
+      "classi_concorso": [
+        {
+          "codice": "A009",
+          "punteggio_minimo": "84.0"
+        },
+        {
+          "codice": "A011",
+          "punteggio_minimo": "73.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "32.0"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "47.0"
+        }
+      ]
+    },
+    {
+      "nome": "Massa-Carrara",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "http://www.ustlucca.it/2024/09/04/esiti-nomine-a-t-d-personale-docente-a-s-2024-25-i-turno-gps/",
+      "note": "I dati sono stati estratti dal bollettino delle nomine dell'Ambito Territoriale di Lucca e Massa Carrara. Non è stato possibile trovare un bollettino separato per la sola provincia di Massa-Carrara. I punteggi si riferiscono a nomine su scuole nel comune di Massarosa e Carrara, ma il codice meccanografico delle scuole appartiene alla provincia di Lucca (LU). Non è stato possibile trovare il punteggio minimo generale a causa della complessità e della mancanza di un formato standardizzato nel documento.",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "92.5"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "55.0"
+        }
+      ]
+    },
+    {
+      "nome": "Matera",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "39.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionematera.it/i-bollettino-nomine-a-t-d-a-s-2025-26/",
+      "note": "I dati sono stati estratti dal \"I Bollettino Nomine a T.D. A.S. 2025/26\" pubblicato dall'Ambito Territoriale di Matera. Il punteggio minimo generale è il più basso tra tutte le classi di concorso nominate, inclusi gli spezzoni orari. Il bollettino è datato 02/09/2025.",
+      "classi_concorso": [
+        {
+          "codice": "A015",
+          "punteggio_minimo": "41.50"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "45.00"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "46.00"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "47.00"
+        },
+        {
+          "codice": "A021",
+          "punteggio_minimo": "68.00"
+        }
+      ]
+    },
+    {
+      "nome": "Messina",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "40.00-344.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://me.usr.sicilia.it/personale-docente-gae-gps-decreto-di-conferimento-incarichi-a-tempo-determinato-del-personale-docente-a-s-2025-26-i-turno-di-nomine/",
+      "note": "I dati sono stati estratti dal \"Bollettino I turno di nomine\" dell'Ufficio Scolastico Regionale per la Sicilia - Ambito Territoriale di Messina, relativo all'a.s. 2025/2026. Il punteggio minimo generale è un'indicazione basata sul punteggio più basso trovato per la classe di concorso A047 (Scienze Matematiche Applicate) in F1, che è 40.00. Il punteggio massimo trovato è 344.00 per la A045. Il bollettino è un elenco di nomine e non un riepilogo dei punteggi minimi, quindi il punteggio minimo generale è un'osservazione e non un dato ufficiale aggregato.",
+      "classi_concorso": [
+        {
+          "codice": "A015",
+          "punteggio_minimo": "151.00"
+        },
+        {
+          "codice": "A045",
+          "punteggio_minimo": "344.00"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "97.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "114.00"
+        }
+      ]
+    },
+    {
+      "nome": "Milano",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "38.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.mim.gov.it/web/milano/-/nomina-a-tempo-determinato-da-gps-a-s-2025-2026-esito-conferimento-nomine-da-i-e-ii-fascia-",
+      "note": "Il punteggio minimo generale è il più basso tra le classi di concorso analizzate nel primo bollettino di nomina. L'analisi è stata effettuata sul bollettino ufficiale dell'UST di Milano per l'a.s. 2025/2026.",
+      "classi_concorso": [
+        {
+          "codice": "A040",
+          "punteggio_minimo": "102.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "68.0"
+        },
+        {
+          "codice": "A019",
+          "punteggio_minimo": "57.0"
+        },
+        {
+          "codice": "A046",
+          "punteggio_minimo": "41.0"
+        },
+        {
+          "codice": "B012",
+          "punteggio_minimo": "38.0"
+        }
+      ]
+    },
+    {
+      "nome": "Modena",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "6.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://mo.istruzioneer.gov.it/2025/08/30/esiti-nomine-a-tempo-determinato-personale-docente-a-s-2025-26-i-bollettino/",
+      "note": "I dati si riferiscono al I Bollettino di nomine a tempo determinato (prima chiamata) da GPS per l'A.S. 2025/2026 della provincia di Modena. Il punteggio minimo generale è il più basso tra tutte le classi di concorso che hanno avuto una nomina.",
+      "classi_concorso": [
+        {
+          "codice": "A053",
+          "punteggio_minimo": "116.0"
+        },
+        {
+          "codice": "A063",
+          "punteggio_minimo": "115.5"
+        },
+        {
+          "codice": "A061",
+          "punteggio_minimo": "93.5"
+        },
+        {
+          "codice": "B006",
+          "punteggio_minimo": "73.5"
+        },
+        {
+          "codice": "A060",
+          "punteggio_minimo": "58.0"
+        }
+      ]
+    },
+    {
+      "nome": "Monza e Brianza",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "4.00-156.50",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.voglioinsegnare.it/graduatorie-gps/gps-monza%20e%20della%20brianza",
+      "note": "I dati sono stati estratti da una fonte non ufficiale (voglioinsegnare.it) che cita i \"Dati pubblicati dall'USP di Monza e della Brianza il 21 agosto 2024\". Non è stato possibile accedere direttamente al bollettino ufficiale dell'UST di Monza e Brianza a causa di problemi di certificato SSL e manutenzione del sito. I punteggi si riferiscono al punteggio minimo per l'assegnazione di supplenze da I fascia GPS.",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "40.00"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "9.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "20.00"
+        },
+        {
+          "codice": "AAAA",
+          "punteggio_minimo": "4.00"
+        }
+      ]
+    },
+    {
+      "nome": "Napoli",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "1.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.uat-napoli.it/graduatorie-provinciali-di-supplenza-nomine-a-tempo-determinato-2025-2026-ogni-ordine-e-grado-napoli-e-provincia/",
+      "note": "I dati sono stati estratti dal bollettino ufficiale delle nomine a tempo determinato (PDF di 919 pagine) pubblicato dall'Ambito Territoriale di Napoli. Il punteggio minimo generale di 1.00 è il punteggio più basso riscontrato tra tutti i candidati nominati nella prima chiamata (data di nomina 03/09/2025). Il bollettino non fornisce una tabella riassuntiva dei punteggi minimi per classe di concorso, ma l'elenco completo delle nomine. I codici delle classi di concorso di esempio sono stati selezionati tra quelli con il punteggio minimo di 1.0.",
+      "classi_concorso": [
+        {
+          "codice": "A007",
+          "punteggio_minimo": "1.0"
+        },
+        {
+          "codice": "A015",
+          "punteggio_minimo": "1.0"
+        },
+        {
+          "codice": "A020",
+          "punteggio_minimo": "1.0"
+        },
+        {
+          "codice": "A031",
+          "punteggio_minimo": "1.0"
+        },
+        {
+          "codice": "A040",
+          "punteggio_minimo": "1.0"
+        }
+      ]
+    },
+    {
+      "nome": "Novara",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "25.5",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionepiemonte.it/novara/procedura-informatizzata-supplenze-esito-conferimento-incarichi-a-tempo-determinato-candidati-inseriti-nelle-graduatorie-provinciali-supplenze-gps-primo-turno-a-s-2025-2026/",
+      "note": "I dati sono stati estratti dal bollettino ufficiale delle nomine, analizzando i punteggi dei candidati che hanno ricevuto un incarico. I punteggi minimi si riferiscono all'ultimo candidato nominato per ciascuna classe di concorso nel primo turno. Potrebbero esserci ulteriori nomine in turni successivi con punteggi diversi.",
+      "classi_concorso": [
+        {
+          "codice": "A008",
+          "punteggio_minimo": "38"
+        },
+        {
+          "codice": "A011",
+          "punteggio_minimo": "64"
+        },
+        {
+          "codice": "A015",
+          "punteggio_minimo": "57"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "70"
+        },
+        {
+          "codice": "A020",
+          "punteggio_minimo": "38.5"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "44"
+        }
+      ]
+    },
+    {
+      "nome": "Nuoro",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "10.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.mim.gov.it/web/nuoro/-/conferimenti-dei-contratti-a-tempo-determinato-a-s-2025-2026-turno-i_supplenze-scuola-infanzia-e-primaria-secondaria-di-primo-e-secondo-grado--1",
+      "note": "Dati estratti dal bollettino del Turno I di nomine GPS per l'A.S. 2025/2026. Il punteggio minimo generale \\u00e8 il punteggio pi\\u00f9 basso a cui \\u00e8 stata assegnata una supplenza in qualsiasi classe di concorso. Le classi di concorso di esempio sono state semplificate per includere solo il codice e il punteggio.",
+      "classi_concorso": [
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "10.00"
+        },
+        {
+          "codice": "EEIL",
+          "punteggio_minimo": "10.00"
+        },
+        {
+          "codice": "EEEE",
+          "punteggio_minimo": "10.00"
+        },
+        {
+          "codice": "AM12",
+          "punteggio_minimo": "12.00"
+        }
+      ]
+    },
+    {
+      "nome": "Padova",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "2.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://padova.istruzioneveneto.gov.it/2024/09/06/supplenze-docenti-2024-2025-gps-bollettino-delle-assegnazioni/",
+      "note": "I dati sono stati estratti dal bollettino delle assegnazioni del 06/09/2024, che rappresenta la prima chiamata del primo turno per l'a.s. 2024/2025. Il punteggio minimo generale si riferisce alla classe di concorso EEIL (Scuola Infanzia Lingua Inglese).",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "33.0"
+        },
+        {
+          "codice": "A012",
+          "punteggio_minimo": "33.5"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "34.0"
+        }
+      ]
+    },
+    {
+      "nome": "Palermo",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "26.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://pa.usr.sicilia.it/supplenze-docenti-da-gae-e-gps-a-s-2025-2026-individuazione-e-assegnazione-delle-sedi/",
+      "note": "Dati estratti dal bollettino del I turno di nomina per l'a.s. 2025/2026. Il punteggio minimo generale è il più basso tra le classi di concorso analizzate.",
+      "classi_concorso": [
+        {
+          "codice": "A046",
+          "punteggio_minimo": "26.00"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "47.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "33.00"
+        }
+      ]
+    },
+    {
+      "nome": "Parma",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "1.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://pr.istruzioneer.gov.it/2025/09/01/esiti-nomine-a-tempo-determinato-da-gps-a-s-2025-26-turno-del-01-09-2025/",
+      "note": "L'estrazione automatica dei dati dal bollettino in formato PDF è risultata complessa a causa della struttura del documento. I punteggi riportati sono stati estratti tramite uno script e potrebbero non essere completamente accurati. Si consiglia di verificare i dati direttamente dalla fonte ufficiale.",
+      "classi_concorso": [
+        {
+          "codice": "A010",
+          "punteggio_minimo": "5.0"
+        },
+        {
+          "codice": "A011",
+          "punteggio_minimo": "7.0"
+        },
+        {
+          "codice": "A019",
+          "punteggio_minimo": "10.0"
+        },
+        {
+          "codice": "A020",
+          "punteggio_minimo": "56.0"
+        },
+        {
+          "codice": "A021",
+          "punteggio_minimo": "2.0"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "8.0"
+        }
+      ]
+    },
+    {
+      "nome": "Pavia",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.mim.gov.it/web/pavia/albo-pretorio",
+      "note": "Non è stato possibile reperire il bollettino ufficiale del primo turno di nomine GPS con i punteggi minimi per tutte le classi di concorso. L'atto più pertinente trovato nell'Albo Pretorio (Prot. AOODRLO n. 46159 del 2/09/2025) si riferisce a una graduatoria di interpello, non al bollettino generale di sbarramento.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Perugia",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "4.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://istruzione.umbria.it/ambito-territoriale-perugia/nomine-a-t-d-personale-docente-ed-educativo-a-s-2024-2025-provincia-di-perugia/",
+      "note": "Dati estratti dal bollettino totale nomine del 30.08.2024, che si presume sia la prima chiamata GPS per l'a.s. 2024/2025. Il punteggio minimo generale di 4.00 è relativo alla classe di concorso ADSS (Sostegno Secondaria II grado) - F2.",
+      "classi_concorso": [
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "4.00"
+        },
+        {
+          "codice": "A001",
+          "punteggio_minimo": "45.00"
+        },
+        {
+          "codice": "A003",
+          "punteggio_minimo": "121.00"
+        },
+        {
+          "codice": "A005",
+          "punteggio_minimo": "120.00"
+        }
+      ]
+    },
+    {
+      "nome": "Pesaro e Urbino",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "N/D",
+      "fonte_url": "http://www.usppesarourbino.it/",
+      "note": "Non è stato possibile trovare i dati GPS per la prima chiamata del primo turno per la provincia di Pesaro e Urbino per gli anni scolastici 2024/2025 o 2025/2026. I link ai bollettini di nomina sul sito dell'USP di Pesaro e Urbino risultano non funzionanti e le ricerche su altre fonti non hanno prodotto risultati utili.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Pescara",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "31.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionechietipescara.it/2025/08/30/bollettino-n-1-nomine-a-tempo-determinato-a-s-2025-26/",
+      "note": "I punteggi minimi sono stati estratti dal Bollettino N. 1 Nomine a Tempo Determinato per il Personale Docente ed Educativo a.s. 2025/2026, che rappresenta la prima chiamata. Il punteggio minimo generale è stato determinato come il punteggio più basso tra le classi di concorso con il punteggio minimo più basso (A023, A026, A027, A034). I dati sono stati estratti dalla porzione visibile del PDF, che copre le classi di concorso A005-A050.",
+      "classi_concorso": [
+        {
+          "codice": "A023",
+          "punteggio_minimo": "31.0"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "37.0"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "36.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "85.0"
+        },
+        {
+          "codice": "A034",
+          "punteggio_minimo": "36.0"
+        }
+      ]
+    },
+    {
+      "nome": "Piacenza",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "4.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://pc.istruzioneer.gov.it/2024/09/09/esiti-nomine-a-tempo-determinato-personale-docente-a-s-2024-25-i-turno/",
+      "note": "Nessuna",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "13.0"
+        },
+        {
+          "codice": "A042",
+          "punteggio_minimo": "275.0"
+        },
+        {
+          "codice": "A045",
+          "punteggio_minimo": "222.0"
+        },
+        {
+          "codice": "A045",
+          "punteggio_minimo": "4.0"
+        },
+        {
+          "codice": "A052",
+          "punteggio_minimo": "206.0"
+        },
+        {
+          "codice": "A060",
+          "punteggio_minimo": "272.0"
+        },
+        {
+          "codice": "B017",
+          "punteggio_minimo": "14.0"
+        },
+        {
+          "codice": "B017",
+          "punteggio_minimo": "6.0"
+        },
+        {
+          "codice": "B021",
+          "punteggio_minimo": "188.0"
+        },
+        {
+          "codice": "B026",
+          "punteggio_minimo": "8.0"
+        }
+      ]
+    },
+    {
+      "nome": "Pisa",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "13.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.toscana-istruzione.it/atpisa/2025/08/30/incarichi-a-tempo-determinato-primo-turno-nomine-da-gps-a-s-2025-26/",
+      "note": "Nessuna",
+      "classi_concorso": [
+        {
+          "codice": "A011",
+          "punteggio_minimo": "62.00"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "13.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "34.50"
+        }
+      ]
+    },
+    {
+      "nome": "Pistoia",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "N/D",
+      "fonte_url": "https://www.ufficioscolasticoprovinciale.pistoia.it/",
+      "note": "Non è stato possibile trovare il bollettino del primo turno di nomina GPS per la provincia di Pistoia per l'anno scolastico 2025/2026. I link ai bollettini trovati non erano funzionanti o portavano a pagine di errore 404. La ricerca sul sito dell'USP di Pistoia non ha prodotto risultati utili.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Pordenone",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "70.50",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-pordenone/notizie/article/DL-19.03.2024-n.-19-art.-14-comma-1-lettera-c-bis.-Individuazione-dei-destinatari-della-proposta-di-stipula-del-contratto-a-tempo-determinato./",
+      "note": "I dati si riferiscono al primo bollettino di nomine (Turno 1) per i posti di Sostegno (ADEE, ADMM, ADSS) da GPS I fascia (F1) per l'A.S. 2024/2025, pubblicato il 21 agosto 2024. Non sono state trovate nomine per le classi di concorso comuni in questo primo bollettino. Il punteggio minimo generale è il più basso tra le classi di concorso di sostegno.",
+      "classi_concorso": [
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "70.50"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "102.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "206.00"
+        }
+      ]
+    },
+    {
+      "nome": "Potenza",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "10.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionepotenza.it/wp-content/uploads/2025/12/9_Bollettino-nomine-a-t.d.-PRIVACY.pdf",
+      "note": "I dati si riferiscono al 9° turno di conferimento nomine a tempo determinato (supplenze) da GPS per l'anno scolastico 2025/2026, pubblicato dall'Ambito Territoriale di Potenza in data 10 dicembre 2025. Non è stato possibile trovare il bollettino della prima chiamata del primo turno. Il punteggio minimo generale è stato calcolato come il minimo tra tutti i punteggi delle classi di concorso presenti nel bollettino.",
+      "classi_concorso": [
+        {
+          "codice": "A015",
+          "punteggio_minimo": "70.0"
+        },
+        {
+          "codice": "A060",
+          "punteggio_minimo": "111.0"
+        },
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "10.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "10.0"
+        },
+        {
+          "codice": "AM12",
+          "punteggio_minimo": "89.0"
+        },
+        {
+          "codice": "AM48",
+          "punteggio_minimo": "50.5"
+        },
+        {
+          "codice": "B011",
+          "punteggio_minimo": "30.0"
+        },
+        {
+          "codice": "B014",
+          "punteggio_minimo": "30.0"
+        },
+        {
+          "codice": "EEEE",
+          "punteggio_minimo": "13.0"
+        },
+        {
+          "codice": "EEEM",
+          "punteggio_minimo": "40.5"
+        }
+      ]
+    },
+    {
+      "nome": "Prato",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "36.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.ufficioscolasticoprovinciale.prato.it/esiti-i-turno-di-nomina-gps-a-s-2025-26/",
+      "note": "I punteggi minimi sono stati estratti dal bollettino del I° turno di nomina GPS per l'a.s. 2025/2026, che rappresenta la prima chiamata. Il bollettino è ordinato per punteggio decrescente, quindi l'ultima nomina per ciascuna classe/fascia è considerata il punteggio minimo.",
+      "classi_concorso": [
+        {
+          "codice": "A005",
+          "punteggio_minimo": "227.0"
+        },
+        {
+          "codice": "A009",
+          "punteggio_minimo": "89.0"
+        },
+        {
+          "codice": "A011",
+          "punteggio_minimo": "165.0"
+        },
+        {
+          "codice": "A015",
+          "punteggio_minimo": "85.0"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "36.0"
+        },
+        {
+          "codice": "A020",
+          "punteggio_minimo": "99.0"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "53.0"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "68.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "49.0"
+        }
+      ]
+    },
+    {
+      "nome": "Ragusa",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "80.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://rg.usr.sicilia.it/conferimento-incarichi-annuali-e-o-fino-al-termine-delle-attivita-didattiche-del-personale-docente-di-scuola-secondaria-di-i-e-ii-grado-a-s-2025-26/",
+      "note": "Il bollettino si riferisce al conferimento di incarichi annuali e fino al termine delle attività didattiche per la scuola secondaria di I e II grado, A.S. 2025/2026. Si assume che rappresenti la prima chiamata. Il punteggio minimo generale è il più basso tra tutte le classi di concorso assegnate.",
+      "classi_concorso": [
+        {
+          "codice": "A028 - MATEMATICA E SCIENZE",
+          "punteggio_minimo": "122.0"
+        },
+        {
+          "codice": "A011 - DISCIPLINE LETTERARIE E LATINO",
+          "punteggio_minimo": "80.0"
+        }
+      ]
+    },
+    {
+      "nome": "Ravenna",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "5.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://ra.istruzioneer.gov.it/2024/09/07/nomine-a-tempo-determinato-da-gps-personale-docente-2024-25-i-turno/",
+      "note": "Il punteggio minimo generale di 5.00 è stato trovato nel bollettino, ma è un valore anomalo che potrebbe riferirsi a una classe di concorso molto specifica o a una riserva. I punteggi minimi per le classi di concorso più comuni sono stati estratti tramite analisi del file PDF convertito in testo. Il bollettino è relativo al I Turno di Nomine a Tempo Determinato da GPS.",
+      "classi_concorso": [
+        {
+          "codice": "A011",
+          "punteggio_minimo": "147.0"
+        },
+        {
+          "codice": "A022",
+          "punteggio_minimo": "58.0"
+        },
+        {
+          "codice": "A012",
+          "punteggio_minimo": "69.0"
+        },
+        {
+          "codice": "A013",
+          "punteggio_minimo": "69.0"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "234.5"
+        },
+        {
+          "codice": "A020",
+          "punteggio_minimo": "234.5"
+        },
+        {
+          "codice": "A021",
+          "punteggio_minimo": "234.5"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "38.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "10.0"
+        },
+        {
+          "codice": "EE",
+          "punteggio_minimo": "10.0"
+        }
+      ]
+    },
+    {
+      "nome": "Reggio Calabria",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "3.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.istruzioneatprc.it/wp-content/uploads/2024/09/all-15041-Nomine-Bollettino.pdf",
+      "note": "Estrazione effettuata tramite parsing del PDF convertito in testo. I punteggi si riferiscono alle nomine con inclusione a pieno titolo (N - Inclusione a pieno titolo) nel primo turno di nomina. Il punteggio minimo generale è il più basso tra le classi di concorso analizzate.",
+      "classi_concorso": [
+        {
+          "codice": "A011",
+          "punteggio_minimo": "3.00"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "11.50"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "7.00"
+        }
+      ]
+    },
+    {
+      "nome": "Reggio Emilia",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "7.0",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://re.istruzioneer.gov.it/2024/09/07/nomine-a-tempo-determinato-personale-docente-ed-educativo-a-s-2024-2025-prima-fase/",
+      "note": "I dati sono stati estratti dal bollettino di nomina del Primo Turno (Prima Fase) per l'a.s. 2024/2025. Il punteggio minimo generale di 7.0 si riferisce alla classe di concorso A054 (Storia dell'Arte) in prima fascia (F1).",
+      "classi_concorso": [
+        {
+          "codice": "A001 F1",
+          "punteggio_minimo": "35.0"
+        },
+        {
+          "codice": "A010 F1",
+          "punteggio_minimo": "89.0"
+        },
+        {
+          "codice": "ADAA F2",
+          "punteggio_minimo": "92.0"
+        },
+        {
+          "codice": "ADSS F2",
+          "punteggio_minimo": "109.0"
+        }
+      ]
+    },
+    {
+      "nome": "Rieti",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "15.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.usp-rieti.it/2025/11/21/personale-docente-bollettino-ins-incarichi-t-d-a-s-25-26-4/",
+      "note": "I dati sono stati estratti da un bollettino di incarichi a tempo determinato (T.D.) pubblicato a novembre 2025, che include nomine da GPS e riflette i punteggi finali raggiunti per le posizioni assegnate, non necessariamente la prima chiamata del primo turno. Il punteggio minimo generale è il più basso tra quelli trovati.",
+      "classi_concorso": [
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "45.0"
+        },
+        {
+          "codice": "AS12",
+          "punteggio_minimo": "78.0"
+        },
+        {
+          "codice": "B020",
+          "punteggio_minimo": "47.5"
+        },
+        {
+          "codice": "EEEE",
+          "punteggio_minimo": "15.0"
+        }
+      ]
+    },
+    {
+      "nome": "Rimini",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "7.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://rn.istruzioneer.gov.it/2025/12/11/docenti-ultimi-nominati-da-gae-gps-a-s-2025-2026-aggiornato-all11-12-2025/",
+      "note": "I dati si riferiscono agli \"ultimi nominati\" da GAE/GPS per l'a.s. 2025/2026, aggiornati all'11/12/2025, e non alla prima pubblicazione della prima chiamata. Il punteggio minimo generale è quello della classe EEEE (Scuola Primaria).",
+      "classi_concorso": [
+        {
+          "codice": "A028",
+          "punteggio_minimo": "48.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "76.5"
+        },
+        {
+          "codice": "A009",
+          "punteggio_minimo": "163.0"
+        },
+        {
+          "codice": "EEEE",
+          "punteggio_minimo": "7.0"
+        }
+      ]
+    },
+    {
+      "nome": "Roma",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "0.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.atpromaistruzione.it/atp/2025/08/conferimento-incarichi-a-t-d-a-s-2025-2026-i-turno/",
+      "note": "I dati sono stati estratti dal bollettino delle nomine del I turno per l'a.s. 2025/2026. Il punteggio minimo generale è il punteggio più basso tra tutte le classi di concorso che hanno ricevuto una nomina.",
+      "classi_concorso": [
+        {
+          "codice": "AS01",
+          "punteggio_minimo": "0.0"
+        },
+        {
+          "codice": "B021",
+          "punteggio_minimo": "0.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "4.0"
+        }
+      ]
+    },
+    {
+      "nome": "Rovigo",
+      "dati_disponibili": false,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "N/D",
+      "fonte_url": "https://rovigo.istruzioneveneto.gov.it/",
+      "note": "Non è stato possibile trovare il bollettino della prima chiamata del primo turno GPS per la provincia di Rovigo per l'anno scolastico 2024/2025 o 2025/2026 sul sito ufficiale dell'USP Rovigo. I bollettini pubblicati sul sito sono relativi a turni successivi (da ottobre/dicembre 2024 in poi) o non contengono i punteggi minimi per classe di concorso. Le ricerche su fonti aggregate (come Asset Scuola) hanno fornito solo dati relativi al personale ATA. Non è stato possibile estrarre i dati richiesti.",
+      "classi_concorso": []
+    },
+    {
+      "nome": "Salerno",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "0.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://uat-salerno.it/Documenti/CIRCOLARI/Personale-Docente-Pubblicazione-nomine-supplenze-2025-26-1-bollettino",
+      "note": "I dati sono stati estratti da una fonte secondaria (voglioinsegnare.it) che riassume i dati ufficiali del 1° bollettino di nomine supplenze 2025/26 dell'USP di Salerno, pubblicato il 29/08/2025. Il punteggio minimo generale è stato identificato come 0.00 per la classe B018.",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "27.00"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "6.50"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "20.00"
+        }
+      ]
+    },
+    {
+      "nome": "Sassari",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.mim.gov.it/web/sassari/-/operazioni-di-supplenza-da-gps-terza-rettifica-al-primo-turno-di-nomina-a-s-2025-26-2",
+      "note": "I dati sono stati estratti da un bollettino di rettifica (terza rettifica) al primo turno di nomina GPS per l'a.s. 2025/2026. I punteggi minimi riportati sono i punteggi più bassi assegnati in tale rettifica per le classi di concorso indicate e potrebbero non riflettere l'esatto punteggio minimo della prima chiamata originale. Il bollettino non riporta un punteggio minimo generale.",
+      "classi_concorso": [
+        {
+          "codice": "ADAA (Sostegno Infanzia)",
+          "punteggio_minimo": "65.0"
+        },
+        {
+          "codice": "ADEE (Sostegno Primaria)",
+          "punteggio_minimo": "46.0"
+        },
+        {
+          "codice": "ADMM (Sostegno I Grado)",
+          "punteggio_minimo": "117.0"
+        },
+        {
+          "codice": "EEEE (Posto Comune Primaria)",
+          "punteggio_minimo": "46.0"
+        }
+      ]
+    },
+    {
+      "nome": "Savona",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "6.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzionesavona.gov.it/pagine/nomine-per-supplenze-finalizzate-al-ruolo-2-as-20252026-",
+      "note": "I dati si riferiscono al I Turno di nomine GPS per l'anno scolastico 2025/2026. Il punteggio minimo generale è il più basso riscontrato in tutte le classi di concorso e fasce. Gli esempi di classi di concorso sono stati selezionati tra quelle con il punteggio minimo più alto per la prima chiamata.",
+      "classi_concorso": [
+        {
+          "codice": "AC55 - STRUMENTO MUSICALE NEGLI ISTITUTI DI ISTRUZIONE SECONDARIA DI II GRADO (CLARINETTO)",
+          "punteggio_minimo": "167.00"
+        },
+        {
+          "codice": "A053 - STORIA DELLA MUSICA E DELLA DANZA",
+          "punteggio_minimo": "132.00"
+        },
+        {
+          "codice": "BC02 - CONVERSAZIONE IN LINGUA STRANIERA (SPAGNOLO)",
+          "punteggio_minimo": "128.00"
+        }
+      ]
+    },
+    {
+      "nome": "Siena",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "9.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.uspsi.it/?p=4024",
+      "note": "I dati si riferiscono al \"I turno GPS\" di nomine a tempo determinato per l'a.s. 2024/2025, pubblicato il 04.09.2024. Il punteggio minimo generale è il più basso tra tutte le classi di concorso nominate.",
+      "classi_concorso": [
+        {
+          "codice": "AJ55 - STRUMENTO MUSICALE NEGLI ISTITUTI DI ISTRUZIONE SECONDARIA DI II GRADO (PIANOFORTE)",
+          "punteggio_minimo": "253.0"
+        },
+        {
+          "codice": "A053 - EX STORIA DELLA MUSICA",
+          "punteggio_minimo": "242.0"
+        },
+        {
+          "codice": "A054 - STORIA DELL'ARTE",
+          "punteggio_minimo": "173.0"
+        }
+      ]
+    },
+    {
+      "nome": "Sondrio",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "21.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.cislscuolasondrio.it/2025/08/29/disponibilita-per-le-gps/",
+      "note": "I dati sono stati estratti dal Bollettino n. 1 del 29/08/2025, che elenca i docenti nominati. Il punteggio minimo è l'ultimo punteggio di nomina per ciascuna classe di concorso. La struttura del file PDF convertito non era tabellare e ha richiesto una ricostruzione basata sull'allineamento delle colonne.",
+      "classi_concorso": [
+        {
+          "codice": "A009",
+          "punteggio_minimo": "192.0"
+        },
+        {
+          "codice": "A010",
+          "punteggio_minimo": "74.0"
+        },
+        {
+          "codice": "A011",
+          "punteggio_minimo": "54.5"
+        }
+      ]
+    },
+    {
+      "nome": "Siracusa",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "8.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://sr.usr.sicilia.it/personale-docente-decreto-di-conferimento-incarichi-a-tempo-determinato-del-personale-docente-a-s-2025-26-i-turno-di-nomina/",
+      "note": "I punteggi minimi sono stati estratti dal bollettino del I turno di nomina per l'a.s. 2025/2026. Il punteggio minimo generale di 8.00 è molto basso e si riferisce probabilmente a classi di concorso con posti di sostegno o con pochi candidati.",
+      "classi_concorso": [
+        {
+          "codice": "AM48",
+          "punteggio_minimo": "8.00"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "8.50"
+        },
+        {
+          "codice": "EEEM",
+          "punteggio_minimo": "12.00"
+        },
+        {
+          "codice": "EEEE",
+          "punteggio_minimo": "14.00"
+        },
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "22.00"
+        }
+      ]
+    },
+    {
+      "nome": "Taranto",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "4.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.usptaranto.it/2024/09/09/decreto-pubblicazione-esiti-nomine-a-t-d-gps-di-ogni-ordine-e-grado-posti-comuni-e-di-sostegno/",
+      "note": "I dati si riferiscono al primo turno di nomine da GPS per l'a.s. 2024/2025. Il punteggio minimo generale è il più basso tra tutte le classi di concorso e fasce in cui è stata effettuata una nomina. Il punteggio minimo assoluto è 4.00 (classe B016).",
+      "classi_concorso": [
+        {
+          "codice": "A028",
+          "punteggio_minimo": "24.00"
+        },
+        {
+          "codice": "A012",
+          "punteggio_minimo": "33.00"
+        },
+        {
+          "codice": "A011",
+          "punteggio_minimo": "71.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "75.00"
+        },
+        {
+          "codice": "A019",
+          "punteggio_minimo": "96.00"
+        }
+      ]
+    },
+    {
+      "nome": "Teramo",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "38.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.csateramo.it/wpusp/archive/pubblicazione-esiti-nomine-da-gae-e-da-gps-a-s-20242025-processo-n-2-del-30082024",
+      "note": "I dati si riferiscono al Bollettino Nomine da GPS del 30/08/2024, che rappresenta la prima tornata di nomine per l'anno scolastico 2024/2025. Il punteggio minimo generale è stato identificato come il punteggio più basso tra tutti gli aspiranti nominati, indipendentemente dalla classe di concorso o dalla fascia.",
+      "classi_concorso": [
+        {
+          "codice": "A054",
+          "punteggio_minimo": "38.00"
+        },
+        {
+          "codice": "A034",
+          "punteggio_minimo": "43.00"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "50.00"
+        }
+      ]
+    },
+    {
+      "nome": "Terni",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "4.00-271.50",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://istruzione.umbria.it/ambito-territoriale-terni/esiti-nomine-a-t-d-personale-docente-a-s-2024-25-provincia-di-terni/",
+      "note": "I dati sono stati estratti dal bollettino totale delle nomine a tempo determinato per l'a.s. 2024/2025, pubblicato dall'Ambito Territoriale di Terni. Il punteggio minimo generale è un range che va dal punteggio minimo più basso al più alto tra tutte le classi di concorso in cui è stata effettuata una nomina.",
+      "classi_concorso": [
+        {
+          "codice": "AD25",
+          "punteggio_minimo": "271.5"
+        },
+        {
+          "codice": "AP55",
+          "punteggio_minimo": "218.0"
+        },
+        {
+          "codice": "A042",
+          "punteggio_minimo": "99.0"
+        },
+        {
+          "codice": "A020",
+          "punteggio_minimo": "96.5"
+        },
+        {
+          "codice": "A022",
+          "punteggio_minimo": "27.0"
+        }
+      ]
+    },
+    {
+      "nome": "Torino",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "5.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.istruzionepiemonte.it/torino/2024/08/31/nota-14760-31-08-2024-primo-bollettino-di-nomine-per-supplenze-a-tempo-determinato-a-s-2024-2025-personale-docente-ed-educativo/",
+      "note": "Nessuna",
+      "classi_concorso": [
+        {
+          "codice": "AB24",
+          "punteggio_minimo": "5.0"
+        },
+        {
+          "codice": "A037",
+          "punteggio_minimo": "5.5"
+        },
+        {
+          "codice": "B021",
+          "punteggio_minimo": "6.5"
+        },
+        {
+          "codice": "A030",
+          "punteggio_minimo": "7.0"
+        },
+        {
+          "codice": "B015",
+          "punteggio_minimo": "7.0"
+        }
+      ]
+    },
+    {
+      "nome": "Trapani",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "23.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://tp.usr.sicilia.it/pubblicazione-bollettino-totale-n-1-nomine-a-tempo-determinato-personale-docente-di-ogni-ordine-e-grado-da-gps-a-s-2025-2026/",
+      "note": "I dati sono stati estratti dal Bollettino Totale N. 1 Nomine a Tempo Determinato da GPS A.S. 2025/2026. Il punteggio minimo generale è 23.00 (A050 F1).",
+      "classi_concorso": [
+        {
+          "codice": "A028",
+          "punteggio_minimo": "51.5"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "49.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "100.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "89.0"
+        },
+        {
+          "codice": "A011",
+          "punteggio_minimo": "47.0"
+        }
+      ]
+    },
+    {
+      "nome": "Trento",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "65.25",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.vivoscuola.it/vivoscuola/tags_view/Tematiche/Lavorare+nella+scuola/Assunzioni+a+tempo+determinato/Chiamata+unica+TD",
+      "note": "I dati si riferiscono alla prima giornata di individuazioni per l'a.s. 2025/2026 (30 giugno 2025) per la Scuola Primaria Posto Comune (EEEE), pubblicati sul portale Vivoscuola della Provincia Autonoma di Trento. Il punteggio minimo è l'ultimo individuato in quella giornata. Non è stato trovato un riepilogo generale per tutte le classi di concorso della scuola secondaria.",
+      "classi_concorso": [
+        {
+          "codice": "EEEE (Scuola Primaria Posto Comune)",
+          "punteggio_minimo": "65.25"
+        }
+      ]
+    },
+    {
+      "nome": "Treviso",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "13.50",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://treviso.istruzioneveneto.gov.it/esito-primo-turno-di-nomine-a-tempo-determinato-docenti/",
+      "note": "Il punteggio minimo generale di 13.50 si riferisce alla classe di concorso B016 (Laboratori di scienze e tecnologie informatiche) in II fascia GPS. L'estrazione dei dati è stata complessa a causa della formattazione irregolare del PDF.",
+      "classi_concorso": [
+        {
+          "codice": "B016 F2",
+          "punteggio_minimo": "13.50"
+        },
+        {
+          "codice": "B017 F2",
+          "punteggio_minimo": "15.00"
+        },
+        {
+          "codice": "B014 F1",
+          "punteggio_minimo": "20.50"
+        },
+        {
+          "codice": "ADIO F1",
+          "punteggio_minimo": "20.50"
+        },
+        {
+          "codice": "A017 F1",
+          "punteggio_minimo": "24.00"
+        }
+      ]
+    },
+    {
+      "nome": "Trieste",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "33.50",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-trieste/notizie/article/Bollettino-nomine-a-tempo-determinato-a.s.-2025-26-personale-docente/",
+      "note": "I dati sono stati estratti dal bollettino delle nomine a tempo determinato per l'a.s. 2025/26 dell'UAT di Trieste. Il punteggio minimo generale è stato calcolato come il punteggio più basso tra tutte le classi di concorso e fasce GPS che hanno ricevuto una nomina. I punteggi minimi per classe di concorso sono quelli dell'ultimo nominato per quella specifica classe/fascia.",
+      "classi_concorso": [
+        {
+          "codice": "A013",
+          "punteggio_minimo": "69.0"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "43.5"
+        },
+        {
+          "codice": "A020",
+          "punteggio_minimo": "38.0"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "52.0"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "33.5"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "39.0"
+        }
+      ]
+    },
+    {
+      "nome": "Udine",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "5.00-168.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://usrfvg.gov.it/export/sites/default/it/home/menu/uffici/ufficio-territoriale-di-udine/allegati/2024-09-04_10919_AOOUSPUD_assunzioni-td-doc_Bollettino_TotaleNomine_definitivo.pdf",
+      "note": "I dati si riferiscono al Bollettino Totale Nomine definitivo del 4 settembre 2024, che rappresenta la prima fase di attribuzione delle supplenze GPS per l'Ambito Territoriale di Udine per l'anno scolastico 2024/2025. Il punteggio minimo generale è il minimo tra i punteggi degli ultimi nominati per ciascuna classe di concorso.",
+      "classi_concorso": [
+        {
+          "codice": "B015",
+          "punteggio_minimo": "5.00"
+        },
+        {
+          "codice": "B020",
+          "punteggio_minimo": "6.50"
+        },
+        {
+          "codice": "EEEE",
+          "punteggio_minimo": "7.00"
+        }
+      ]
+    },
+    {
+      "nome": "Varese",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "2.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.mim.gov.it/web/varese/-/decreto-pubblicazione-individuazione-dei-destinatari-di-contratto-a-tempo-determinato-da-gae-e-gps-a-s-2025-2026-personale-docente-e-educativo-bolle-1",
+      "note": "Dati estratti dal Bollettino n. 1 di individuazione dei destinatari di contratto a tempo determinato da GAE e GPS per l'A.S. 2025/2026. Il punteggio minimo generale si riferisce al punteggio più basso a cui è stata assegnata una supplenza in questo bollettino, non necessariamente il minimo assoluto per tutte le classi di concorso.",
+      "classi_concorso": [
+        {
+          "codice": "A020",
+          "punteggio_minimo": "65.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "9.0"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "9.0"
+        },
+        {
+          "codice": "A010",
+          "punteggio_minimo": "24.0"
+        },
+        {
+          "codice": "A045",
+          "punteggio_minimo": "18.0"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "35.0"
+        },
+        {
+          "codice": "A019",
+          "punteggio_minimo": "12.0"
+        },
+        {
+          "codice": "A026",
+          "punteggio_minimo": "25.0"
+        },
+        {
+          "codice": "A046",
+          "punteggio_minimo": "23.0"
+        },
+        {
+          "codice": "A047",
+          "punteggio_minimo": "10.0"
+        }
+      ]
+    },
+    {
+      "nome": "Venezia",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "11.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.cislscuolavenezia.it/wp-content/uploads/2025/08/BOLLETTINO-TOTALE-NOMINE-PRIMO-TURNO-SUPPLENZE-29.08.2025.pdf",
+      "note": "I dati sono stati estratti dal bollettino di nomina del primo turno di supplenze del 29.08.2025. Il punteggio minimo generale di 11.00 si riferisce alla classe di concorso AAAA (Infanzia).",
+      "classi_concorso": [
+        {
+          "codice": "A002",
+          "punteggio_minimo": "40.0"
+        },
+        {
+          "codice": "A019",
+          "punteggio_minimo": "187.0"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "58.0"
+        },
+        {
+          "codice": "AAAA",
+          "punteggio_minimo": "11.0"
+        },
+        {
+          "codice": "AJ56S",
+          "punteggio_minimo": "36.0"
+        }
+      ]
+    },
+    {
+      "nome": "Verbano-Cusio-Ossola",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "7.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.voglioinsegnare.it/graduatorie-gps/gps-Verbano-cusio-ossola",
+      "note": "I dati ufficiali (file PDF/XLSX) dell'USP di Verbano-Cusio-Ossola non sono stati scaricati correttamente. I punteggi minimi sono stati estratti da una fonte terza (voglioinsegnare.it) che riporta i dati pubblicati dall'USP. Il punteggio minimo generale di 7.00 è stato riscontrato per la classe di concorso MMMM (Sostegno Scuola Media) in Fascia 2.",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "25.50"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "20.50"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "16.50"
+        }
+      ]
+    },
+    {
+      "nome": "Vercelli",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "6.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.voglioinsegnare.it/graduatorie-gps/gps-Vercelli",
+      "note": "I dati sono stati estratti da una fonte terza che cita la pubblicazione da parte dell'USP di Vercelli il 23 agosto 2024. Non è stato possibile scaricare il bollettino ufficiale in formato PDF/Excel dal sito dell'USP, che ha restituito un errore 404 per i file allegati. Il punteggio minimo generale si riferisce alla classe di concorso A018 (Filosofia e Scienze umane) in prima fascia.",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "127.50"
+        },
+        {
+          "codice": "A027",
+          "punteggio_minimo": "107.50"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "49.00"
+        },
+        {
+          "codice": "A018",
+          "punteggio_minimo": "6.00"
+        }
+      ]
+    },
+    {
+      "nome": "Verona",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "36.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://verona.istruzioneveneto.gov.it/index.php/conferimento-supplenze-a-s-2025-2026/",
+      "note": "I dati si riferiscono al Bollettino n. 1 del 01.08.2025 per le nomine da GPS I fascia Sostegno (ADEE - Scuola Primaria e ADMM - Scuola Secondaria I grado) per l'a.s. 2025/2026. Non sono stati trovati bollettini per le classi di concorso disciplinari (es. A022, A028) per la prima chiamata. Il punteggio minimo generale è il più basso tra le classi di concorso Sostegno trovate.",
+      "classi_concorso": [
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "36.0"
+        },
+        {
+          "codice": "ADMM",
+          "punteggio_minimo": "39.0"
+        }
+      ]
+    },
+    {
+      "nome": "Vibo Valentia",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://www.istruzione.calabria.it/vibovalentia/personale-docente-decreto-di-conferimento-incarichi-a-tempo-determinato-a-s-2025-26-i-bollettino/",
+      "note": "I dati si riferiscono al I Bollettino di conferimento incarichi a tempo determinato (prima chiamata del primo turno) per l'a.s. 2025/2026, pubblicato il 30 Agosto 2025. I punteggi minimi sono stati estratti dal punteggio dell'ultimo nominato per ciascuna classe di concorso presente nel bollettino. Non è stato possibile estrarre un punteggio minimo generale unico.",
+      "classi_concorso": [
+        {
+          "codice": "A011",
+          "punteggio_minimo": "125.50"
+        },
+        {
+          "codice": "A013",
+          "punteggio_minimo": "102.50"
+        },
+        {
+          "codice": "A016",
+          "punteggio_minimo": "113.50"
+        },
+        {
+          "codice": "A019",
+          "punteggio_minimo": "92.00"
+        },
+        {
+          "codice": "A028",
+          "punteggio_minimo": "55.00"
+        },
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "36.00"
+        },
+        {
+          "codice": "ADSS",
+          "punteggio_minimo": "122.00"
+        }
+      ]
+    },
+    {
+      "nome": "Vicenza",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "30.00",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://vicenza.istruzioneveneto.gov.it/2025/08/30/nomine-supplenti-individuazione-dei-docenti-destinatari-per-lanno-scolastico-2025-2026-di-una-proposta-di-stipula-di-contratto-a-tempo-determinato-tutti-gli-ordini-di-scuola/",
+      "note": "I dati completi del bollettino della prima chiamata (30 Agosto 2025) per tutte le classi di concorso non sono stati resi pubblici dall'USP di Vicenza in formato accessibile senza autenticazione. I punteggi minimi forniti si riferiscono esclusivamente alle classi di concorso di Sostegno (ADAA - Infanzia e ADEE - Primaria) per la I fascia GPS. Il punteggio minimo generale è il più basso riscontrato in queste classi.",
+      "classi_concorso": [
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "30.0"
+        },
+        {
+          "codice": "ADEE",
+          "punteggio_minimo": "30.0"
+        }
+      ]
+    },
+    {
+      "nome": "Viterbo",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "31.00",
+      "anno_scolastico": "2024/2025",
+      "fonte_url": "https://www.provveditoratostudiviterbo.it/DOCENTI/2024/Bollettino_TotaleNomine_INS_13.09.pdf",
+      "note": "I punteggi minimi sono stati estratti dal bollettino totale delle nomine a tempo determinato (INS) del 13 settembre 2024, che rappresenta il primo turno di nomine GPS per l'A.S. 2024/2025. Il punteggio minimo per ogni classe di concorso è il punteggio dell'ultimo nominato in quella classe. L'estrazione dei dati è stata complessa a causa della formattazione irregolare del file PDF convertito in testo. Punteggi minimi di classe di concorso trovati: AA25: 164.5; AAAA: 48.5; AB24: 115.5; AB25: 60.5; ADAA: 48.5; ADEE: 34.0; EEEE: 31.0.",
+      "classi_concorso": [
+        {
+          "codice": "AA25",
+          "punteggio_minimo": "164.5"
+        },
+        {
+          "codice": "AAAA",
+          "punteggio_minimo": "48.5"
+        },
+        {
+          "codice": "AB24",
+          "punteggio_minimo": "115.5"
+        },
+        {
+          "codice": "AB25",
+          "punteggio_minimo": "60.5"
+        },
+        {
+          "codice": "ADAA",
+          "punteggio_minimo": "48.5"
+        }
+      ]
+    },
+    {
+      "nome": "Bolzano",
+      "dati_disponibili": true,
+      "punteggio_minimo_generale": "N/D",
+      "anno_scolastico": "2025/2026",
+      "fonte_url": "https://scuola-italiana.provincia.bz.it/it/lavorare-sistema-scolastico/operazioni-nomine",
+      "note": "I dati sono stati estratti dal \"Rapporto scelte del 19_08_2025\" per l'A.S. 2025/2026, pubblicato sul sito ufficiale della Provincia di Bolzano. Il documento non riporta esplicitamente il punteggio minimo, ma la posizione in graduatoria dell'ultimo assegnato per ciascuna classe di concorso. Le posizioni indicate si riferiscono all'ultimo candidato che ha ottenuto un incarico a tempo determinato (supplenza) nella prima giornata di selezione.",
+      "classi_concorso": [
+        {
+          "codice": "A022",
+          "punteggio_minimo": "Posizione 57"
+        },
+        {
+          "codice": "A030",
+          "punteggio_minimo": "Posizione 22"
+        },
+        {
+          "codice": "AT23",
+          "punteggio_minimo": "Posizione 18"
+        }
+      ]
+    }
+  ]
+}

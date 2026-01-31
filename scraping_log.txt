@@ -1,0 +1,39 @@
+=== SCRAPING CLASSI DI CONCORSO E TITOLI DI STUDIO ===
+
+FASE 1: Estrazione classi di concorso
+Scarico lista classi da: https://www.classidiconcorso.it/nuove-classi-di-concorso-aggiornate-2016-2017.html
+Trovate 154 classi di concorso
+
+Estrazione dettagli per 154 classi...
+  Progresso: 10/154
+  Progresso: 20/154
+  Progresso: 30/154
+  Progresso: 40/154
+  Progresso: 50/154
+  Progresso: 60/154
+  Progresso: 70/154
+  Progresso: 80/154
+  Progresso: 90/154
+  Progresso: 100/154
+  Progresso: 110/154
+  Progresso: 120/154
+  Progresso: 130/154
+  Progresso: 140/154
+  Progresso: 150/154
+
+✓ Classi salvate in: /home/ubuntu/gps_calculator/classi_concorso_data.json
+
+FASE 2: Estrazione titoli di studio
+
+Scarico lista titoli da: https://www.classidiconcorso.it/titoli-di-studio.html
+Trovati 0 titoli di studio
+
+Estrazione dettagli per 0 titoli...
+
+✓ Titoli salvati in: /home/ubuntu/gps_calculator/titoli_studio_data.json
+
+=== COMPLETATO ===
+Classi estratte: 154
+Titoli estratti: 0
+Classi con titoli: 0
+Titoli con classi: 0

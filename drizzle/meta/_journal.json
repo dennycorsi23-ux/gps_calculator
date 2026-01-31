@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1765474602085,
+      "tag": "0000_lonely_the_anarchist",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1765474725851,
+      "tag": "0001_milky_logan",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1765479830964,
+      "tag": "0002_brainy_spyke",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1765665148417,
+      "tag": "0003_hesitant_mariko_yashida",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1767906470031,
+      "tag": "0004_moaning_red_shift",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1767907103510,
+      "tag": "0005_calm_zuras",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1767907139092,
+      "tag": "0006_abandoned_wrecker",
+      "breakpoints": true
+    }
+  ]
+}

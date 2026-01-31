@@ -1,0 +1,20 @@
+CREATE TABLE `gps_leads` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`nome` varchar(255) NOT NULL,
+	`email` varchar(320) NOT NULL,
+	`cellulare` varchar(20) NOT NULL,
+	`classe_concorso` varchar(50) NOT NULL,
+	`voto_laurea` int NOT NULL,
+	`lode` int NOT NULL DEFAULT 0,
+	`num_c2` int NOT NULL DEFAULT 0,
+	`num_clil` int NOT NULL DEFAULT 0,
+	`num_biannale` int NOT NULL DEFAULT 0,
+	`certificazioni_informatiche` int NOT NULL DEFAULT 0,
+	`punteggio_laurea` decimal(5,2) NOT NULL,
+	`punteggio_titoli` decimal(5,2) NOT NULL,
+	`punteggio_totale` decimal(5,2) NOT NULL,
+	`created_at` timestamp NOT NULL DEFAULT (now()),
+	`ip_address` varchar(45),
+	`user_agent` text,
+	CONSTRAINT `gps_leads_id` PRIMARY KEY(`id`)
+);

@@ -1,0 +1,5300 @@
+[
+  {
+    "codice": "00AA",
+    "descrizione": "Infanzia: posto comune",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "diploma": "Diploma di Maturità Magistrale conseguito entro l'a.s. 2001/2002",
+          "note": "Titolo abilitante"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea in Scienze della Formazione Primaria (Vecchio Ordinamento - 4 anni)",
+          "note": "Titolo abilitante"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale a ciclo unico in Scienze della Formazione Primaria LM-85 bis (5 anni)",
+          "note": "Titolo abilitante"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola dell'Infanzia",
+        "materie": "00AA",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "00EE",
+    "descrizione": "Primaria: posto comune",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "diploma": "Diploma di Maturità Magistrale conseguito entro l'a.s. 2001/2002",
+          "note": "Titolo abilitante"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea in Scienze della Formazione Primaria (Vecchio Ordinamento - 4 anni)",
+          "note": "Titolo abilitante"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale a ciclo unico in Scienze della Formazione Primaria LM-85 bis (5 anni)",
+          "note": "Titolo abilitante"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Primaria",
+        "materie": "00EE",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-01",
+    "descrizione": "Disegno e storia dell'arte nell'istruzione secondaria di I e di II grado",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-02",
+    "descrizione": "Design dei metalli, dell'oreficeria, delle pietre dure e delle gemme",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-02",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-03",
+    "descrizione": "Design della ceramica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-03",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-04",
+    "descrizione": "Design del libro",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-04",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-05",
+    "descrizione": "Design del tessuto e della moda",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-05",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-06",
+    "descrizione": "Design del vetro",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-06",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-07",
+    "descrizione": "Discipline Audiovisive",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-07",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-08",
+    "descrizione": "Discipline geometriche, architettura, design d'arredamento e scenotecnica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-08",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-09",
+    "descrizione": "Discipline grafiche, pittoriche e scenografiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-09",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-10",
+    "descrizione": "Discipline grafico-pubblicitarie",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-10",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-11",
+    "descrizione": "Discipline letterarie e latino",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-11",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-12",
+    "descrizione": "Discipline letterarie nell'istruzione secondaria di I e II grado",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-13",
+    "descrizione": "Discipline letterarie, latino e greco",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-13",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-14",
+    "descrizione": "Discipline plastiche, scultoree e scenoplastiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-14",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-15",
+    "descrizione": "Discipline sanitarie",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-15",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-16",
+    "descrizione": "Disegno artistico e modellazione odontotecnica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-16",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-18",
+    "descrizione": "Filosofia e Scienze umane",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-18",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-19",
+    "descrizione": "Filosofia e Storia",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-19",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-20",
+    "descrizione": "Fisica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-21",
+    "descrizione": "Geografia",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-21",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-23",
+    "descrizione": "Lingua italiana per discenti di lingua straniera (alloglotti)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-23",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-26",
+    "descrizione": "Matematica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-26",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-27",
+    "descrizione": "Matematica e Fisica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-28",
+    "descrizione": "Matematica e scienze",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-28",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-30",
+    "descrizione": "Musica nell'istruzione secondaria di I grado e II grado",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-31",
+    "descrizione": "Scienze degli alimenti",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-31",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-32",
+    "descrizione": "Scienze della geologia e della mineralogia",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-32",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-33",
+    "descrizione": "Scienze e tecnologie aeronautiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-33",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-34",
+    "descrizione": "Scienze e tecnologie chimiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-34",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-35",
+    "descrizione": "Scienze e tecnologie della calzatura e della moda",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-35",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-36",
+    "descrizione": "Scienze e tecnologie della logistica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-36",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-37",
+    "descrizione": "Scienze e tecnologie delle costruzioni, tecnologie e tecniche di rappresentazione grafica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-37",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-38",
+    "descrizione": "Scienze e tecnologie delle costruzioni aeronautiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-38",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-39",
+    "descrizione": "Scienze e tecnologie delle costruzioni navali",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-39",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-40",
+    "descrizione": "Scienze e tecnologie elettriche ed elettroniche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-40",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-41",
+    "descrizione": "Scienze e tecnologie informatiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-41",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-42",
+    "descrizione": "Scienze e tecnologie meccaniche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-42",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-43",
+    "descrizione": "Scienze e tecnologie nautiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-43",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-44",
+    "descrizione": "Scienze e tecnologie tessili, dell'abbigliamento e della moda",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-44",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-45",
+    "descrizione": "Scienze economico-aziendali",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-45",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-46",
+    "descrizione": "Scienze giuridico-economiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-46",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-47",
+    "descrizione": "Scienze matematiche applicate",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-47",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-48",
+    "descrizione": "Scienze motorie e sportive nell'istruzione secondaria di I grado e II grado",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-50",
+    "descrizione": "Scienze naturali, chimiche e biologiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-50",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-51",
+    "descrizione": "Scienze, tecnologie e tecniche agrarie",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-51",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-52",
+    "descrizione": "Scienze, tecnologie e tecniche di produzioni animali",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-52",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-53",
+    "descrizione": "Storia della musica e della danza",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-54",
+    "descrizione": "Storia dell'arte",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-54",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-57",
+    "descrizione": "Tecnica della danza classica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-57",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-58",
+    "descrizione": "Tecnica della danza contemporanea",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-58",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-59",
+    "descrizione": "Tecniche di accompagnamento alla danza e teoria e pratica musicale per la danza",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-59",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-60",
+    "descrizione": "Tecnologia nella scuola secondaria di I grado",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-60",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-61",
+    "descrizione": "Tecnologie e tecniche delle comunicazioni multimediali",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-61",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-62",
+    "descrizione": "Tecnologie e tecniche per la grafica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-62",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-63",
+    "descrizione": "Tecnologie musicali",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-63",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-64",
+    "descrizione": "Teoria, analisi e composizione",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-64",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-65",
+    "descrizione": "Teoria e tecnica della comunicazione",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-65",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-66",
+    "descrizione": "Trattamento testi, dati ed applicazioni. Informatica (ad esaurimento)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-66",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-70",
+    "descrizione": "Italiano negli istituti di istruzione secondaria di I e II grado con lingua di insegnamento slovena o bilingui del Friuli Venezia Giulia",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-71",
+    "descrizione": "Discipline letterarie negli istituti di istruzione secondaria di I e Il grado con lingua di insegnamento slovena o bilingui del Friuli Venezia Giulia",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-74",
+    "descrizione": "Discipline letterarie e latino con lingua di insegnamento slovena",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-74",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-75",
+    "descrizione": "Discipline letterarie, latino e greco con lingua di insegnamento slovena",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-75",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-76",
+    "descrizione": "Trattamento testi, dati ed applicazioni, Informatica negli istituti professionali con lingua di insegnamento slovena (ad esaurimento)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-76",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-77",
+    "descrizione": "Lingua e cultura ladina, storia ed educazione civica, geografia, nella scuola secondaria di I grado con lingua di insegnamento ladina",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-77",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-78",
+    "descrizione": "Italiano (seconda lingua), storia ed educazione civica, geografia, nella scuola secondaria di I grado con lingua di insegnamento tedesca",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-78",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-79",
+    "descrizione": "Discipline letterarie (italiano seconda lingua) negli istituti di istruzione secondaria di II grado in lingua tedesca",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-79",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-80",
+    "descrizione": "Discipline letterarie negli istituti di istruzione secondaria di II grado in lingua tedesca e con lingua di insegnamento tedesca delle località ladine",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-80",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-81",
+    "descrizione": "Discipline letterarie e latino nei licei in lingua tedesca e con lingua di insegnamento, tedesca delle località ladine",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-81",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-82",
+    "descrizione": "Discipline letterarie, latino e greco nel liceo classico in lingua tedesca e con lingua di insegnamento tedesca delle località ladine",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-82",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-83",
+    "descrizione": "Discipline letterarie (tedesco seconda lingua) negli istituti di istruzione secondaria di II grado in lingua italiana della provincia di Bolzano",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-83",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-84",
+    "descrizione": "Tedesco (seconda lingua), storia ed educazione civica, geografia, nella scuola secondaria di I grado con lingua di insegnamento italiana della provincia di Bolzano",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-84",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-85",
+    "descrizione": "Tedesco storia ed educazione civica, geografia, nella scuola secondaria di I grado in lingua tedesca e con lingua di insegnamento tedesca",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-85",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "A-86",
+    "descrizione": "Trattamento testi, dati ed applicazioni, Informatica negli istituti professionali in lingua tedesca e con lingua di insegnamento tedesca (ad esaurimento)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Scuola Secondaria di I e II grado",
+        "materie": "A-86",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AA22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (FRANCESE)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AA55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado (ARPA)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AA55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AA56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (ARPA)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AA56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AB22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (INGLESE)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AB55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado (CHITARRA)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AB55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AB56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (CHITARRA)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AB56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AC22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (SPAGNOLO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AC56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (CLARINETTO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AC56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AD00",
+    "descrizione": "Sostegno Scuola Media: area comune",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Sostegno - Tutti i gradi",
+        "materie": "AD00",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AD0D",
+    "descrizione": "Sostegno Scuola Infanzia: area comune",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Sostegno - Tutti i gradi",
+        "materie": "AD0D",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AD0J",
+    "descrizione": "Sostegno Scuola Elementare: area comune",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Sostegno - Tutti i gradi",
+        "materie": "AD0J",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AD22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (TEDESCO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Sostegno - Tutti i gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AD56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (CORNO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Sostegno - Tutti i gradi",
+        "materie": "AD56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "ADEE",
+    "descrizione": "Primaria: posto sostegno",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Sostegno - Tutti i gradi",
+        "materie": "ADEE",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "ADSS",
+    "descrizione": "Sostegno Scuola Superiore",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "requisito": "Abilitazione per il grado di scuola corrispondente + Specializzazione sostegno",
+          "note": "Corso di specializzazione TFA Sostegno"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Sostegno - Tutti i gradi",
+        "materie": "ADSS",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AE22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (RUSSO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AE56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (FAGOTTO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AE56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AF22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (ALBANESE)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AF56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (FISARMONICA)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AF56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AG22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (SLOVENO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AG56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (FLAUTO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AG56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AH22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (SERBO-CROATO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AH55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado (FLAUTO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AH55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AH56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (OBOE)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AH56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AI22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (CINESE)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AI55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado (PERCUSSIONI)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AI55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AI56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (PERCUSSIONI)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AI56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AJ22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (GIAPPONESE)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AJ55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado (PIANOFORTE)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AJ55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AJ56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (PIANOFORTE)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AJ56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AK22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (EBRAICO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AK55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado (SAXSOFONO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AK55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AK56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (SAXSOFONO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AK56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AL22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (ARABO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AL55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado (TROMBA)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AL55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AL56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (TROMBA)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AL56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AM22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (NEO-GRECO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AM55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado (VIOLINO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AM55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AM56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (VIOLINO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AM56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AN22",
+    "descrizione": "Lingue e culture straniere nell'istruzione secondaria di I e II grado (PORTOGHESE)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AN55",
+    "descrizione": "Strumento musicale negli istituti di istruzione superiore di II grado (VIOLONCELLO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AN55",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "AN56",
+    "descrizione": "Strumento musicale nella scuola secondaria di I grado (VIOLONCELLO)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AN56",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-01",
+    "descrizione": "Attività pratiche speciali (ad esaurimento)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-01",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-02",
+    "descrizione": "Conversazione in lingua straniera",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-02",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-03",
+    "descrizione": "Laboratori di Fisica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-03",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-04",
+    "descrizione": "Laboratori di liuteria",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-04",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-05",
+    "descrizione": "Laboratorio di logistica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-05",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-06",
+    "descrizione": "Laboratorio di odontotecnica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-06",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-07",
+    "descrizione": "Laboratorio di ottica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-07",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-08",
+    "descrizione": "Laboratori di produzioni industriali ed artigianali della ceramica",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-08",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-09",
+    "descrizione": "Laboratori di scienze e tecnologie aeronautiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-09",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-10",
+    "descrizione": "Laboratori di scienze e tecnologie delle costruzioni aeronautiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-10",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-11",
+    "descrizione": "Laboratori di scienze e tecnologie agrarie",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-11",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-12",
+    "descrizione": "Laboratori di scienze e tecnologie chimiche e microbiologiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-12",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-13",
+    "descrizione": "Laboratori di scienze e tecnologie della calzatura e della moda",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-13",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-14",
+    "descrizione": "Laboratori di scienze e tecnologie delle costruzioni",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-14",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-15",
+    "descrizione": "Laboratori di scienze e tecnologie elettriche ed elettroniche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-15",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-16",
+    "descrizione": "Laboratori di scienze e tecnologie informatiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-16",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-17",
+    "descrizione": "Laboratori di scienze e tecnologie meccaniche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-17",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-18",
+    "descrizione": "Laboratori di scienze e tecnologie tessili, dell'abbigliamento e della moda",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-18",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-19",
+    "descrizione": "Laboratori di servizi di ricettività alberghiera",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-19",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-20",
+    "descrizione": "Laboratori di servizi enogastronomici, settore cucina",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-20",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-21",
+    "descrizione": "Laboratori di servizi enogastronomici, settore sala e vendita",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-21",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-22",
+    "descrizione": "Laboratori di tecnologie e tecniche delle comunicazioni multimediali",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-22",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-23",
+    "descrizione": "Laboratori per i servizi socio–sanitari",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-23",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-24",
+    "descrizione": "Laboratorio di scienze e tecnologie nautiche",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-24",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-25",
+    "descrizione": "Laboratorio di scienze e tecnologie delle costruzioni navali",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-25",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-26",
+    "descrizione": "Laboratorio di tecnologie del legno",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-26",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-27",
+    "descrizione": "Laboratorio di tecnologie del marmo",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-27",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-28",
+    "descrizione": "Laboratorio di tecnologie orafe",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-28",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-29",
+    "descrizione": "Gabinetto fisioterapico (ad esaurimento)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-29",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-30",
+    "descrizione": "Addetto all'ufficio tecnico (ad esaurimento)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-30",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-31",
+    "descrizione": "Esercitazioni pratiche per centralinisti telefonici (ad esaurimento)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-31",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "B-32",
+    "descrizione": "Esercitazioni di pratica professionale (ad esaurimento)",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea in discipline correlate (Vecchio Ordinamento)",
+          "note": "Con esami specifici nei settori disciplinari richiesti"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata (LS)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici",
+          "note": "Verificare tabella allegata al DM 22/2005"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata (LM)",
+          "cfu_richiesti": "Almeno 24 CFU nei settori disciplinari specifici + 24 CFU in discipline antropo-psico-pedagogiche",
+          "note": "Verificare tabella allegata al DM 270/2004"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Laboratori - Scuola Secondaria di II grado",
+        "materie": "B-32",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "EEEM",
+    "descrizione": "Educazione motoria scuola primaria",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "AGGIORNATO SECONDO ALLEGATO 10 FEBBRAIO 2024",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  },
+  {
+    "codice": "PP",
+    "descrizione": "Educatore",
+    "codici_vecchio_ordinamento": [],
+    "titoli_accesso": {
+      "dm_39_1998": [
+        {
+          "laurea": "Laurea Vecchio Ordinamento correlata",
+          "note": "Verificare requisiti specifici"
+        }
+      ],
+      "dm_22_2005": [
+        {
+          "laurea": "Laurea Specialistica correlata",
+          "note": "Verificare requisiti CFU"
+        }
+      ],
+      "dm_270_2004": [
+        {
+          "laurea": "Laurea Magistrale correlata",
+          "note": "Verificare requisiti CFU e abilitazione"
+        }
+      ]
+    },
+    "istituti_materie": [
+      {
+        "tipo_istituto": "Vari ordini e gradi",
+        "materie": "PP",
+        "note": "Verificare disponibilità posti per provincia"
+      }
+    ],
+    "note_importanti": "I CFU richiesti devono essere conseguiti in corsi universitari. Verificare sempre i requisiti specifici sul sito del MIUR."
+  }
+]

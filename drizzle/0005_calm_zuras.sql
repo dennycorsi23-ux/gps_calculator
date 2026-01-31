@@ -1,0 +1,1 @@
+ALTER TABLE `corsi_ecampus` MODIFY COLUMN `categoria` enum('Percorsi Abilitanti','Certificazioni Linguistiche','Metodologie Didattiche','Certificazioni Informatiche','Master') NOT NULL;

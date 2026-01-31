@@ -1,0 +1,1 @@
+ALTER TABLE `gps_leads` ADD `privacy_consent` int DEFAULT 1 NOT NULL;
