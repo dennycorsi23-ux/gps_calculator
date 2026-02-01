@@ -4,6 +4,14 @@ import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
 import { z } from "zod";
 import { Resend } from "resend";
+import { 
+  getAllProvince, 
+  getAllClassiConcorso, 
+  getGpsDataByClasse, 
+  getGpsDataByProvincia,
+  analyzeOpportunities,
+  getGpsStats 
+} from "./gpsDb";
 
 export const appRouter = router({
     // if you need to use socket.io, read and register route in server/_core/index.ts, all api should start with '/api/' so that the gateway can route correctly
@@ -70,6 +78,83 @@ export const appRouter = router({
           throw new Error("Errore nell'invio dell'email");
         }
       })
+  }),
+
+  // GPS Data API
+  gps: router({
+    // Recupera tutte le province
+    getProvince: publicProcedure.query(async () => {
+      try {
+        return await getAllProvince();
+      } catch (error) {
+        console.error('Errore nel recuperare le province:', error);
+        return [];
+      }
+    }),
+
+    // Recupera tutte le classi di concorso
+    getClassiConcorso: publicProcedure.query(async () => {
+      try {
+        return await getAllClassiConcorso();
+      } catch (error) {
+        console.error('Errore nel recuperare le classi di concorso:', error);
+        return [];
+      }
+    }),
+
+    // Recupera i dati GPS per una classe di concorso
+    getDataByClasse: publicProcedure
+      .input(z.object({
+        codiceClasse: z.string().min(1)
+      }))
+      .query(async ({ input }) => {
+        try {
+          return await getGpsDataByClasse(input.codiceClasse);
+        } catch (error) {
+          console.error('Errore nel recuperare i dati GPS per classe:', error);
+          return [];
+        }
+      }),
+
+    // Recupera i dati GPS per una provincia
+    getDataByProvincia: publicProcedure
+      .input(z.object({
+        provinciaId: z.number()
+      }))
+      .query(async ({ input }) => {
+        try {
+          return await getGpsDataByProvincia(input.provinciaId);
+        } catch (error) {
+          console.error('Errore nel recuperare i dati GPS per provincia:', error);
+          return [];
+        }
+      }),
+
+    // Analizza le opportunità per un candidato
+    analyzeOpportunities: publicProcedure
+      .input(z.object({
+        codiceClasse: z.string().min(1),
+        punteggio: z.number(),
+        fascia: z.enum(["1", "2"]).default("1")
+      }))
+      .query(async ({ input }) => {
+        try {
+          return await analyzeOpportunities(input.codiceClasse, input.punteggio, input.fascia);
+        } catch (error) {
+          console.error('Errore nell\'analisi delle opportunità:', error);
+          return [];
+        }
+      }),
+
+    // Statistiche GPS
+    getStats: publicProcedure.query(async () => {
+      try {
+        return await getGpsStats();
+      } catch (error) {
+        console.error('Errore nel recuperare le statistiche GPS:', error);
+        return { province: 0, classiConcorso: 0, graduatorie: 0 };
+      }
+    }),
   }),
 });
 

@@ -143,3 +143,66 @@ export const richiesteInfoCorsi = mysqlTable("richieste_info_corsi", {
 
 export type RichiestaInfoCorso = typeof richiesteInfoCorsi.$inferSelect;
 export type InsertRichiestaInfoCorso = typeof richiesteInfoCorsi.$inferInsert;
+
+// ============================================
+// TABELLE GPS - Graduatorie Provinciali Supplenze
+// ============================================
+
+/**
+ * Province italiane
+ */
+export const province = mysqlTable("province", {
+  id: int("id").autoincrement().primaryKey(),
+  nome: varchar("nome", { length: 100 }).notNull(),
+  codice: varchar("codice", { length: 2 }).notNull(),
+  regione: varchar("regione", { length: 100 }).notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export type Provincia = typeof province.$inferSelect;
+
+/**
+ * Classi di concorso
+ */
+export const classiConcorso = mysqlTable("classi_concorso", {
+  id: int("id").autoincrement().primaryKey(),
+  codice: varchar("codice", { length: 10 }).notNull(),
+  descrizione: text("descrizione"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export type ClasseConcorso = typeof classiConcorso.$inferSelect;
+
+/**
+ * Graduatorie GPS - Dati aggregati per provincia/classe/fascia
+ */
+export const graduatorieGps = mysqlTable("graduatorie_gps", {
+  id: int("id").autoincrement().primaryKey(),
+  provinciaId: int("provincia_id").notNull(),
+  classeConcorsoId: int("classe_concorso_id").notNull(),
+  fascia: mysqlEnum("fascia", ["1", "2"]).notNull(),
+  annoScolastico: varchar("anno_scolastico", { length: 20 }).notNull(),
+  numeroCandidati: int("numero_candidati").default(0).notNull(),
+  punteggioMax: decimal("punteggio_max", { precision: 6, scale: 2 }),
+  punteggioMin: decimal("punteggio_min", { precision: 6, scale: 2 }),
+  punteggioMedio: decimal("punteggio_medio", { precision: 6, scale: 2 }),
+  urlBollettino: varchar("url_bollettino", { length: 1000 }),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().onUpdateNow().notNull(),
+});
+
+export type GraduatoriaGps = typeof graduatorieGps.$inferSelect;
+
+/**
+ * Candidati GPS - Dati individuali (nomi oscurati)
+ */
+export const candidatiGps = mysqlTable("candidati_gps", {
+  id: int("id").autoincrement().primaryKey(),
+  graduatoriaId: int("graduatoria_id").notNull(),
+  posizione: int("posizione").notNull(),
+  nomeOscurato: varchar("nome_oscurato", { length: 255 }),
+  punteggio: decimal("punteggio", { precision: 6, scale: 2 }).notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export type CandidatoGps = typeof candidatiGps.$inferSelect;

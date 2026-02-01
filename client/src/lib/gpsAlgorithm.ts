@@ -112,6 +112,10 @@ export function calculateScore(data: {
   };
 }
 
+/**
+ * Analizza le province usando i dati statici locali
+ * Questa funzione viene usata come fallback quando l'API non è disponibile
+ */
 export function analyzeProvinces(userScore: number, classeConcorso: string): ProvinceAnalysis[] {
   return provinces.map(province => {
     const min2024 = province.minScores2024[classeConcorso] || null;
@@ -136,15 +140,21 @@ export function analyzeProvinces(userScore: number, classeConcorso: string): Pro
     if (referenceScore !== null) {
       const diff = userScore - referenceScore;
       
-      if (diff >= 5) {
+      if (diff >= 10) {
         probability = "Alta";
-        probabilityScore = 90;
+        probabilityScore = 95;
+      } else if (diff >= 5) {
+        probability = "Alta";
+        probabilityScore = 85;
       } else if (diff >= 0) {
         probability = "Media";
-        probabilityScore = 60;
+        probabilityScore = 65;
       } else if (diff >= -5) {
+        probability = "Media";
+        probabilityScore = 45;
+      } else if (diff >= -10) {
         probability = "Bassa";
-        probabilityScore = 30;
+        probabilityScore = 25;
       } else {
         probability = "Bassa";
         probabilityScore = 10;
@@ -153,15 +163,21 @@ export function analyzeProvinces(userScore: number, classeConcorso: string): Pro
       // No data available - use standard score of 45
       const diff = userScore - 45;
       
-      if (diff >= 5) {
+      if (diff >= 10) {
         probability = "Alta";
-        probabilityScore = 85; // Slightly lower than with real data
+        probabilityScore = 90;
+      } else if (diff >= 5) {
+        probability = "Alta";
+        probabilityScore = 80;
       } else if (diff >= 0) {
         probability = "Media";
-        probabilityScore = 55;
+        probabilityScore = 60;
       } else if (diff >= -5) {
+        probability = "Media";
+        probabilityScore = 40;
+      } else if (diff >= -10) {
         probability = "Bassa";
-        probabilityScore = 25;
+        probabilityScore = 20;
       } else {
         probability = "Bassa";
         probabilityScore = 5;
@@ -184,4 +200,51 @@ export function analyzeProvinces(userScore: number, classeConcorso: string): Pro
       hasData
     };
   }).sort((a, b) => b.probabilityScore - a.probabilityScore);
+}
+
+/**
+ * Analizza le province usando i dati dal database via API
+ * Ritorna una Promise con l'analisi delle opportunità
+ */
+export async function analyzeProvincesFromAPI(
+  userScore: number, 
+  classeConcorso: string,
+  fascia: "1" | "2" = "1"
+): Promise<ProvinceAnalysis[]> {
+  try {
+    const response = await fetch(`/api/trpc/gps.analyzeOpportunities?input=${encodeURIComponent(JSON.stringify({
+      codiceClasse: classeConcorso,
+      punteggio: userScore,
+      fascia
+    }))}`);
+    
+    if (!response.ok) {
+      console.warn('API non disponibile, uso dati locali');
+      return analyzeProvinces(userScore, classeConcorso);
+    }
+    
+    const data = await response.json();
+    
+    if (!data.result?.data || data.result.data.length === 0) {
+      console.warn('Nessun dato dall\'API, uso dati locali');
+      return analyzeProvinces(userScore, classeConcorso);
+    }
+    
+    // Trasforma i dati API nel formato ProvinceAnalysis
+    return data.result.data.map((item: any) => ({
+      provinceId: String(item.provinciaId),
+      provinceName: item.provinciaNome,
+      region: item.provinciaRegione,
+      minScore2023: null, // Non abbiamo dati storici nell'API attuale
+      minScore2024: item.punteggioMin,
+      probability: item.probabilita as "Alta" | "Media" | "Bassa" | "N/D",
+      probabilityScore: item.probabilitaScore,
+      trend: "unknown" as const,
+      sourceUrl: `https://www.voglioinsegnare.it/graduatorie-gps`,
+      hasData: item.hasData
+    }));
+  } catch (error) {
+    console.error('Errore nel recuperare dati dall\'API:', error);
+    return analyzeProvinces(userScore, classeConcorso);
+  }
 }

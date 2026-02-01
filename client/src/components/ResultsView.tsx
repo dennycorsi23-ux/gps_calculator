@@ -5,7 +5,12 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { motion } from "framer-motion";
-import { MapPin, TrendingUp, TrendingDown, Minus, ArrowLeft, CheckCircle, AlertCircle, XCircle, Search, Filter } from "lucide-react";
+import { 
+  MapPin, TrendingUp, TrendingDown, Minus, ArrowLeft, 
+  CheckCircle, AlertCircle, XCircle, Search, Filter,
+  GraduationCap, Award, BookOpen, Monitor, Briefcase, Music,
+  Users, Target, BarChart3, Info
+} from "lucide-react";
 import { useState, useMemo } from "react";
 
 interface ResultsViewProps {
@@ -38,6 +43,15 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
     });
   }, [result.provincesAnalysis, searchTerm, regionFilter, probFilter]);
 
+  // Conta province per probabilità
+  const probCounts = useMemo(() => {
+    const counts = { Alta: 0, Media: 0, Bassa: 0, "N/D": 0 };
+    result.provincesAnalysis.forEach(p => {
+      counts[p.probability]++;
+    });
+    return counts;
+  }, [result.provincesAnalysis]);
+
   return (
     <motion.div
       initial={{ opacity: 0, x: 20 }}
@@ -45,72 +59,174 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
       transition={{ duration: 0.5 }}
       className="space-y-8"
     >
-      {/* Header Risultati */}
-      <div className="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between">
-        <Button 
-          variant="ghost" 
-          onClick={onBack}
-          className="text-white hover:bg-white/10 hover:text-white -ml-2"
-        >
-          <ArrowLeft className="mr-2 h-4 w-4" /> Torna al calcolo
-        </Button>
-        
-        <div className="text-center md:text-right">
-          <h2 className="text-white/80 text-sm uppercase tracking-wider font-semibold">Il tuo Punteggio Totale</h2>
-          <div className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg">
-            {result.totalScore.toFixed(1)}
+      {/* Header con Punteggio Totale */}
+      <div className="bg-gradient-to-br from-emerald-600/20 to-blue-600/20 rounded-2xl p-6 md:p-8 border border-white/10">
+        <div className="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between">
+          <div>
+            <h2 className="text-white/60 text-sm uppercase tracking-wider font-semibold mb-1">
+              Risultato Calcolo GPS
+            </h2>
+            <p className="text-white/80 text-sm">
+              Graduatorie Provinciali per le Supplenze 2024/2025
+            </p>
+          </div>
+          
+          <div className="text-center md:text-right">
+            <div className="text-white/60 text-xs uppercase tracking-wider mb-1">
+              Punteggio Totale Stimato
+            </div>
+            <div className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg">
+              {result.totalScore.toFixed(2)}
+            </div>
+            <div className="text-white/50 text-sm mt-1">punti</div>
           </div>
         </div>
       </div>
 
-      {/* Breakdown Punteggio */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
-        <Card className="glass-panel border-0 bg-white/5">
-          <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-            <span className="text-white/60 text-sm mb-1">Laurea</span>
-            <span className="text-2xl font-bold text-white">{result.breakdown.laurea}</span>
-          </CardContent>
-        </Card>
-        <Card className="glass-panel border-0 bg-white/5">
-          <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-            <span className="text-white/60 text-sm mb-1">Titoli Culturali</span>
-            <span className="text-2xl font-bold text-white">{result.breakdown.titoliCulturali}</span>
-          </CardContent>
-        </Card>
-        <Card className="glass-panel border-0 bg-white/5">
-          <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-            <span className="text-white/60 text-sm mb-1">Informatica</span>
-            <span className="text-2xl font-bold text-white">{result.breakdown.informatica}</span>
-          </CardContent>
-        </Card>
+      {/* Breakdown Dettagliato del Punteggio */}
+      <div className="space-y-4">
+        <div className="flex items-center gap-2 text-white/90 font-semibold text-lg">
+          <BarChart3 className="w-5 h-5 text-secondary" />
+          Dettaglio Punteggio
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {/* Titolo di Accesso (Laurea/Diploma) */}
+          <Card className="glass-panel border-0 bg-gradient-to-br from-blue-500/10 to-blue-600/5 hover:from-blue-500/20 hover:to-blue-600/10 transition-all">
+            <CardContent className="p-5">
+              <div className="flex items-start justify-between mb-3">
+                <div className="bg-blue-500/20 p-2 rounded-lg">
+                  <GraduationCap className="w-5 h-5 text-blue-300" />
+                </div>
+                <span className="text-3xl font-bold text-white">{result.breakdown.laurea.toFixed(2)}</span>
+              </div>
+              <div className="text-white/90 font-medium text-sm">Titolo di Accesso</div>
+              <div className="text-white/50 text-xs mt-1">Laurea o Diploma (base 12 + voto)</div>
+            </CardContent>
+          </Card>
+
+          {/* Titoli Culturali */}
+          <Card className="glass-panel border-0 bg-gradient-to-br from-purple-500/10 to-purple-600/5 hover:from-purple-500/20 hover:to-purple-600/10 transition-all">
+            <CardContent className="p-5">
+              <div className="flex items-start justify-between mb-3">
+                <div className="bg-purple-500/20 p-2 rounded-lg">
+                  <BookOpen className="w-5 h-5 text-purple-300" />
+                </div>
+                <span className="text-3xl font-bold text-white">{result.breakdown.titoliCulturali.toFixed(2)}</span>
+              </div>
+              <div className="text-white/90 font-medium text-sm">Titoli Culturali</div>
+              <div className="text-white/50 text-xs mt-1">C2, CLIL, Perfezionamenti, Master L2</div>
+            </CardContent>
+          </Card>
+
+          {/* Certificazioni Informatiche */}
+          <Card className="glass-panel border-0 bg-gradient-to-br from-cyan-500/10 to-cyan-600/5 hover:from-cyan-500/20 hover:to-cyan-600/10 transition-all">
+            <CardContent className="p-5">
+              <div className="flex items-start justify-between mb-3">
+                <div className="bg-cyan-500/20 p-2 rounded-lg">
+                  <Monitor className="w-5 h-5 text-cyan-300" />
+                </div>
+                <span className="text-3xl font-bold text-white">{result.breakdown.informatica.toFixed(2)}</span>
+              </div>
+              <div className="text-white/90 font-medium text-sm">Certificazioni Informatiche</div>
+              <div className="text-white/50 text-xs mt-1">DigComp 2.2, DigComp Edu (max 2 pt)</div>
+            </CardContent>
+          </Card>
+
+          {/* Titoli GPS Aggiuntivi */}
+          {(result.breakdown.titoliGPSAggiuntivi ?? 0) > 0 && (
+            <Card className="glass-panel border-0 bg-gradient-to-br from-amber-500/10 to-amber-600/5 hover:from-amber-500/20 hover:to-amber-600/10 transition-all">
+              <CardContent className="p-5">
+                <div className="flex items-start justify-between mb-3">
+                  <div className="bg-amber-500/20 p-2 rounded-lg">
+                    <Award className="w-5 h-5 text-amber-300" />
+                  </div>
+                  <span className="text-3xl font-bold text-white">{(result.breakdown.titoliGPSAggiuntivi || 0).toFixed(2)}</span>
+                </div>
+                <div className="text-white/90 font-medium text-sm">Titoli GPS Aggiuntivi</div>
+                <div className="text-white/50 text-xs mt-1">Allegato A - Altri titoli valutabili</div>
+              </CardContent>
+            </Card>
+          )}
+        </div>
+
+        {/* Dettaglio Titoli GPS Aggiuntivi */}
         {(result.breakdown.titoliGPSAggiuntivi ?? 0) > 0 && (
-          <>
-            <Card className="glass-panel border-0 bg-white/5">
-              <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-                <span className="text-white/60 text-sm mb-1">Abilitazioni</span>
-                <span className="text-2xl font-bold text-green-300">{result.breakdown.abilitazioni || 0}</span>
-              </CardContent>
-            </Card>
-            <Card className="glass-panel border-0 bg-white/5">
-              <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-                <span className="text-white/60 text-sm mb-1">Accademici</span>
-                <span className="text-2xl font-bold text-green-300">{result.breakdown.accademici || 0}</span>
-              </CardContent>
-            </Card>
-            <Card className="glass-panel border-0 bg-white/5">
-              <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-                <span className="text-white/60 text-sm mb-1">Artistici</span>
-                <span className="text-2xl font-bold text-green-300">{result.breakdown.artistici || 0}</span>
-              </CardContent>
-            </Card>
-            <Card className="glass-panel border-0 bg-white/5">
-              <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-                <span className="text-white/60 text-sm mb-1">Servizio</span>
-                <span className="text-2xl font-bold text-green-300">{result.breakdown.servizio || 0}</span>
-              </CardContent>
-            </Card>
-          </>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4">
+            {(result.breakdown.abilitazioni ?? 0) > 0 && (
+              <div className="bg-white/5 rounded-lg p-3 flex items-center gap-3">
+                <Award className="w-4 h-4 text-green-400" />
+                <div>
+                  <div className="text-white/60 text-xs">Abilitazioni</div>
+                  <div className="text-white font-semibold">{result.breakdown.abilitazioni} pt</div>
+                </div>
+              </div>
+            )}
+            {(result.breakdown.accademici ?? 0) > 0 && (
+              <div className="bg-white/5 rounded-lg p-3 flex items-center gap-3">
+                <GraduationCap className="w-4 h-4 text-blue-400" />
+                <div>
+                  <div className="text-white/60 text-xs">Titoli Accademici</div>
+                  <div className="text-white font-semibold">{result.breakdown.accademici} pt</div>
+                </div>
+              </div>
+            )}
+            {(result.breakdown.artistici ?? 0) > 0 && (
+              <div className="bg-white/5 rounded-lg p-3 flex items-center gap-3">
+                <Music className="w-4 h-4 text-pink-400" />
+                <div>
+                  <div className="text-white/60 text-xs">Titoli Artistici</div>
+                  <div className="text-white font-semibold">{result.breakdown.artistici} pt</div>
+                </div>
+              </div>
+            )}
+            {(result.breakdown.servizio ?? 0) > 0 && (
+              <div className="bg-white/5 rounded-lg p-3 flex items-center gap-3">
+                <Briefcase className="w-4 h-4 text-orange-400" />
+                <div>
+                  <div className="text-white/60 text-xs">Servizio</div>
+                  <div className="text-white font-semibold">{result.breakdown.servizio} pt</div>
+                </div>
+              </div>
+            )}
+          </div>
         )}
+      </div>
+
+      {/* Riepilogo Opportunità */}
+      <div className="grid grid-cols-3 gap-4">
+        <Card className="glass-panel border-0 bg-green-500/10 border-green-500/20">
+          <CardContent className="p-4 text-center">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <CheckCircle className="w-5 h-5 text-green-400" />
+              <span className="text-green-300 font-semibold">Alta</span>
+            </div>
+            <div className="text-3xl font-bold text-white">{probCounts.Alta}</div>
+            <div className="text-white/50 text-xs">province</div>
+          </CardContent>
+        </Card>
+        
+        <Card className="glass-panel border-0 bg-yellow-500/10 border-yellow-500/20">
+          <CardContent className="p-4 text-center">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <AlertCircle className="w-5 h-5 text-yellow-400" />
+              <span className="text-yellow-300 font-semibold">Media</span>
+            </div>
+            <div className="text-3xl font-bold text-white">{probCounts.Media}</div>
+            <div className="text-white/50 text-xs">province</div>
+          </CardContent>
+        </Card>
+        
+        <Card className="glass-panel border-0 bg-red-500/10 border-red-500/20">
+          <CardContent className="p-4 text-center">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <XCircle className="w-5 h-5 text-red-400" />
+              <span className="text-red-300 font-semibold">Bassa</span>
+            </div>
+            <div className="text-3xl font-bold text-white">{probCounts.Bassa}</div>
+            <div className="text-white/50 text-xs">province</div>
+          </CardContent>
+        </Card>
       </div>
 
       {/* Analisi Province */}
@@ -119,14 +235,28 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
           <div>
             <h3 className="text-2xl font-bold text-white flex items-center gap-2">
               <MapPin className="w-6 h-6 text-secondary" />
-              Analisi Opportunità ({filteredProvinces.length})
+              Dove Presentare Domanda
             </h3>
             <p className="text-white/70 text-sm mt-1">
-              Confronto con i punteggi minimi di nomina (2024-2025).
+              Analisi delle opportunità per provincia basata sui punteggi minimi di nomina 2024/2025
             </p>
-            <p className="text-white/40 text-xs mt-2 italic">
-              * Probabilità stimata basata su media nazionale (45 punti) per province senza dati storici
-            </p>
+          </div>
+          <Badge variant="outline" className="text-white/60 border-white/20">
+            {filteredProvinces.length} province visualizzate
+          </Badge>
+        </div>
+
+        {/* Info Box */}
+        <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-4 flex items-start gap-3">
+          <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+          <div className="text-sm text-white/80">
+            <p className="font-medium text-blue-300 mb-1">Come leggere i risultati</p>
+            <ul className="space-y-1 text-white/60">
+              <li><span className="text-green-400">● Alta probabilità:</span> Il tuo punteggio supera di almeno 10 punti il minimo storico</li>
+              <li><span className="text-yellow-400">● Media probabilità:</span> Il tuo punteggio è vicino al minimo storico (±10 punti)</li>
+              <li><span className="text-red-400">● Bassa probabilità:</span> Il tuo punteggio è inferiore al minimo storico</li>
+              <li><span className="text-white/40">* Province senza dati:</span> Stima basata sulla media nazionale (45 punti)</li>
+            </ul>
           </div>
         </div>
 
@@ -167,7 +297,7 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
               <SelectItem value="Alta">Alta Probabilità</SelectItem>
               <SelectItem value="Media">Media Probabilità</SelectItem>
               <SelectItem value="Bassa">Bassa Probabilità</SelectItem>
-              <SelectItem value="nodata">Dati mancanti</SelectItem>
+              <SelectItem value="nodata">Dati stimati</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -176,7 +306,7 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
         <div className="grid grid-cols-1 gap-4 max-h-[600px] overflow-y-auto pr-2 custom-scrollbar">
           {filteredProvinces.length > 0 ? (
             filteredProvinces.map((province, index) => (
-              <ProvinceCard key={province.provinceId} province={province} index={index} />
+              <ProvinceCard key={province.provinceId} province={province} index={index} userScore={result.totalScore} />
             ))
           ) : (
             <div className="text-center py-12 text-white/50">
@@ -185,11 +315,20 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
           )}
         </div>
       </div>
+
+      {/* Disclaimer */}
+      <div className="bg-white/5 rounded-xl p-4 text-center">
+        <p className="text-white/50 text-xs">
+          <strong>Disclaimer:</strong> I dati mostrati sono basati sui bollettini ufficiali del primo turno di nomina 2024/2025 
+          pubblicati dagli USP provinciali. Le probabilità sono stime indicative e non garantiscono l'effettiva nomina. 
+          I punteggi minimi possono variare in base al numero di candidati e alle disponibilità di cattedre.
+        </p>
+      </div>
     </motion.div>
   );
 }
 
-function ProvinceCard({ province, index }: { province: ProvinceAnalysis; index: number }) {
+function ProvinceCard({ province, index, userScore }: { province: ProvinceAnalysis; index: number; userScore: number }) {
   const getProbabilityColor = (prob: string) => {
     switch (prob) {
       case "Alta": return "bg-green-500/20 text-green-200 border-green-500/30";
@@ -208,23 +347,31 @@ function ProvinceCard({ province, index }: { province: ProvinceAnalysis; index: 
     }
   };
 
+  const getBgColor = (prob: string) => {
+    switch (prob) {
+      case "Alta": return "hover:bg-green-500/10";
+      case "Media": return "hover:bg-yellow-500/10";
+      case "Bassa": return "hover:bg-red-500/10";
+      default: return "hover:bg-white/10";
+    }
+  };
+
+  // Calcola la differenza dal punteggio minimo
+  const referenceScore = province.minScore2024 || province.minScore2023 || 45;
+  const diff = userScore - referenceScore;
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, delay: Math.min(index * 0.05, 0.5) }}
+      transition={{ duration: 0.3, delay: Math.min(index * 0.03, 0.3) }}
     >
-      <Card className="glass-panel border-0 overflow-hidden hover:bg-white/15 transition-colors">
+      <Card className={`glass-panel border-0 overflow-hidden transition-colors ${getBgColor(province.probability)}`}>
         <CardContent className="p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           
-          {/* Immagine Regione */}
-          <div className="hidden md:block w-16 h-16 rounded-lg overflow-hidden bg-white/5 flex-shrink-0">
-            <img 
-              src={`/images/${province.region.toLowerCase().replace(/[^a-z]/g, '-')}.jpg`}
-              alt={province.region}
-              className="w-full h-full object-cover opacity-60"
-              onError={(e) => { e.currentTarget.style.display = 'none'; }}
-            />
+          {/* Posizione */}
+          <div className="hidden md:flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white/60 font-bold text-sm flex-shrink-0">
+            {index + 1}
           </div>
 
           {/* Info Provincia */}
@@ -237,30 +384,46 @@ function ProvinceCard({ province, index }: { province: ProvinceAnalysis; index: 
             </div>
             
             {province.hasData ? (
-              <div className="flex flex-wrap gap-4 text-sm text-white/70 mt-2">
-                <div className="flex items-center gap-1">
-                  <span className="opacity-60">Min 2024/25:</span>
-                  <span className="font-mono font-semibold text-white">
-                    {province.minScore2023 ? province.minScore2023.toFixed(1) : "N/D"}
+              <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70 mt-2">
+                <div className="flex items-center gap-2">
+                  <span className="text-white/50">Punteggio Minimo:</span>
+                  <span className="font-mono font-bold text-white text-base">
+                    {province.minScore2024 ? province.minScore2024.toFixed(1) : (province.minScore2023 ? province.minScore2023.toFixed(1) : "N/D")}
                   </span>
                 </div>
-                <div className="flex items-center gap-1">
-                  <span className="opacity-60">Min 2025/26:</span>
-                  <span className="font-mono font-semibold text-white">
-                    {province.minScore2024 ? province.minScore2024 : "N/D"}
+                <div className="flex items-center gap-2">
+                  <span className="text-white/50">Differenza:</span>
+                  <span className={`font-mono font-bold text-base ${diff >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+                    {diff >= 0 ? '+' : ''}{diff.toFixed(1)}
                   </span>
                 </div>
                 {province.trend !== "unknown" && (
-                  <div className="flex items-center gap-1 ml-2">
-                    {province.trend === "increasing" && <TrendingUp className="w-3 h-3 text-red-400" />}
-                    {province.trend === "decreasing" && <TrendingDown className="w-3 h-3 text-green-400" />}
-                    {province.trend === "stable" && <Minus className="w-3 h-3 text-yellow-400" />}
+                  <div className="flex items-center gap-1">
+                    <span className="text-white/50">Trend:</span>
+                    {province.trend === "increasing" && (
+                      <div className="flex items-center gap-1 text-red-400">
+                        <TrendingUp className="w-4 h-4" />
+                        <span className="text-xs">In aumento</span>
+                      </div>
+                    )}
+                    {province.trend === "decreasing" && (
+                      <div className="flex items-center gap-1 text-green-400">
+                        <TrendingDown className="w-4 h-4" />
+                        <span className="text-xs">In calo</span>
+                      </div>
+                    )}
+                    {province.trend === "stable" && (
+                      <div className="flex items-center gap-1 text-yellow-400">
+                        <Minus className="w-4 h-4" />
+                        <span className="text-xs">Stabile</span>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
             ) : (
-              <div className="text-sm text-white/50 mt-1 flex items-center gap-2">
-                <span className="opacity-60">Punteggio stimato:</span>
+              <div className="text-sm text-white/50 mt-2 flex items-center gap-2">
+                <span className="text-white/40">Punteggio stimato:</span>
                 <span className="font-mono font-semibold text-white/70">~45 punti</span>
                 <span className="text-xs text-white/40">(media nazionale)</span>
               </div>
@@ -269,14 +432,14 @@ function ProvinceCard({ province, index }: { province: ProvinceAnalysis; index: 
 
           {/* Probabilità */}
           <div className="flex items-center gap-4 w-full md:w-auto justify-between md:justify-end">
-            <div className={`px-3 py-1.5 rounded-full border flex items-center gap-2 ${getProbabilityColor(province.probability)}`}>
+            <div className={`px-4 py-2 rounded-full border flex items-center gap-2 ${getProbabilityColor(province.probability)}`}>
               {getProbabilityIcon(province.probability)}
-              <span className="font-bold uppercase tracking-wide text-xs">
-                {province.probability}
+              <span className="font-bold uppercase tracking-wide text-sm">
+                {province.probability === "N/D" ? "Stimata" : province.probability}
               </span>
             </div>
             {!province.hasData && (
-              <span className="text-xs text-white/40 italic ml-2">*</span>
+              <span className="text-xs text-white/40 italic">*</span>
             )}
           </div>
 
