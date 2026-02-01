@@ -10,7 +10,10 @@ import {
   getGpsDataByClasse, 
   getGpsDataByProvincia,
   analyzeOpportunities,
-  getGpsStats 
+  getGpsStats,
+  confrontaProvince,
+  simulaPuntiAggiuntivi,
+  trovaMiglioriProvince
 } from "./gpsDb";
 
 export const appRouter = router({
@@ -130,7 +133,7 @@ export const appRouter = router({
         }
       }),
 
-    // Analizza le opportunità per un candidato
+    // Analizza le opportunità per un candidato (con stima posizione)
     analyzeOpportunities: publicProcedure
       .input(z.object({
         codiceClasse: z.string().min(1),
@@ -142,6 +145,74 @@ export const appRouter = router({
           return await analyzeOpportunities(input.codiceClasse, input.punteggio, input.fascia);
         } catch (error) {
           console.error('Errore nell\'analisi delle opportunità:', error);
+          return [];
+        }
+      }),
+
+    // Confronta opportunità tra province selezionate
+    confrontaProvince: publicProcedure
+      .input(z.object({
+        codiceClasse: z.string().min(1),
+        punteggio: z.number(),
+        fascia: z.enum(["1", "2"]).default("1"),
+        provinceIds: z.array(z.number()).min(1).max(10)
+      }))
+      .query(async ({ input }) => {
+        try {
+          return await confrontaProvince(
+            input.codiceClasse, 
+            input.punteggio, 
+            input.fascia, 
+            input.provinceIds
+          );
+        } catch (error) {
+          console.error('Errore nel confronto province:', error);
+          return [];
+        }
+      }),
+
+    // Simula effetto punti aggiuntivi
+    simulaPuntiAggiuntivi: publicProcedure
+      .input(z.object({
+        codiceClasse: z.string().min(1),
+        punteggioBase: z.number(),
+        puntiAggiuntivi: z.array(z.number()).default([1, 2, 3, 5, 10]),
+        fascia: z.enum(["1", "2"]).default("1"),
+        provinciaId: z.number().optional()
+      }))
+      .query(async ({ input }) => {
+        try {
+          return await simulaPuntiAggiuntivi(
+            input.codiceClasse,
+            input.punteggioBase,
+            input.puntiAggiuntivi,
+            input.fascia,
+            input.provinciaId
+          );
+        } catch (error) {
+          console.error('Errore nella simulazione punti:', error);
+          return [];
+        }
+      }),
+
+    // Trova le migliori province per un punteggio
+    trovaMiglioriProvince: publicProcedure
+      .input(z.object({
+        codiceClasse: z.string().min(1),
+        punteggio: z.number(),
+        fascia: z.enum(["1", "2"]).default("1"),
+        limit: z.number().min(1).max(50).default(10)
+      }))
+      .query(async ({ input }) => {
+        try {
+          return await trovaMiglioriProvince(
+            input.codiceClasse,
+            input.punteggio,
+            input.fascia,
+            input.limit
+          );
+        } catch (error) {
+          console.error('Errore nel trovare migliori province:', error);
           return [];
         }
       }),

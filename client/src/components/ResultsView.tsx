@@ -9,7 +9,8 @@ import {
   MapPin, TrendingUp, TrendingDown, Minus, ArrowLeft, 
   CheckCircle, AlertCircle, XCircle, Search, Filter,
   GraduationCap, Award, BookOpen, Monitor, Briefcase, Music,
-  Users, Target, BarChart3, Info
+  Users, Target, BarChart3, Info, Trophy, Hash, Percent,
+  ArrowUpRight, ArrowDownRight, Sparkles
 } from "lucide-react";
 import { useState, useMemo } from "react";
 
@@ -22,6 +23,7 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [regionFilter, setRegionFilter] = useState("all");
   const [probFilter, setProbFilter] = useState("all");
+  const [showOnlyWithPosition, setShowOnlyWithPosition] = useState(false);
 
   // Extract unique regions for filter
   const regions = useMemo(() => {
@@ -38,10 +40,11 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
                           (probFilter === "data" && province.hasData) ||
                           (probFilter === "nodata" && !province.hasData) ||
                           province.probability === probFilter;
+      const matchesPosition = !showOnlyWithPosition || province.posizioneStimata !== null;
       
-      return matchesSearch && matchesRegion && matchesProb;
+      return matchesSearch && matchesRegion && matchesProb && matchesPosition;
     });
-  }, [result.provincesAnalysis, searchTerm, regionFilter, probFilter]);
+  }, [result.provincesAnalysis, searchTerm, regionFilter, probFilter, showOnlyWithPosition]);
 
   // Conta province per probabilità
   const probCounts = useMemo(() => {
@@ -50,6 +53,11 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
       counts[p.probability]++;
     });
     return counts;
+  }, [result.provincesAnalysis]);
+
+  // Trova la migliore provincia
+  const miglioreProvincia = useMemo(() => {
+    return result.provincesAnalysis.find(p => p.hasData) || result.provincesAnalysis[0];
   }, [result.provincesAnalysis]);
 
   return (
@@ -67,7 +75,7 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
               Risultato Calcolo GPS
             </h2>
             <p className="text-white/80 text-sm">
-              Graduatorie Provinciali per le Supplenze 2024/2025
+              Graduatorie Provinciali per le Supplenze 2024/2026
             </p>
           </div>
           
@@ -193,6 +201,99 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
         )}
       </div>
 
+      {/* Migliore Provincia Consigliata */}
+      {miglioreProvincia && miglioreProvincia.hasData && (
+        <div className="bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-2xl p-6 border border-emerald-500/30">
+          <div className="flex items-start gap-4">
+            <div className="bg-emerald-500/30 p-3 rounded-xl">
+              <Trophy className="w-8 h-8 text-emerald-300" />
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center gap-2 mb-2">
+                <Sparkles className="w-4 h-4 text-yellow-400" />
+                <span className="text-emerald-300 font-semibold text-sm uppercase tracking-wider">
+                  Provincia Consigliata
+                </span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-1">
+                {miglioreProvincia.provinceName}
+              </h3>
+              <p className="text-white/60 text-sm mb-3">{miglioreProvincia.region}</p>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+                {miglioreProvincia.posizioneStimata && (
+                  <div className="bg-white/10 rounded-lg p-3">
+                    <div className="flex items-center gap-2 text-white/60 text-xs mb-1">
+                      <Hash className="w-3 h-3" />
+                      Posizione Stimata
+                    </div>
+                    <div className="text-2xl font-bold text-white">
+                      {miglioreProvincia.posizioneStimata}°
+                    </div>
+                    {miglioreProvincia.numCandidati > 0 && (
+                      <div className="text-white/50 text-xs">
+                        su {miglioreProvincia.numCandidati} candidati
+                      </div>
+                    )}
+                  </div>
+                )}
+                
+                {miglioreProvincia.percentile && (
+                  <div className="bg-white/10 rounded-lg p-3">
+                    <div className="flex items-center gap-2 text-white/60 text-xs mb-1">
+                      <Percent className="w-3 h-3" />
+                      Percentile
+                    </div>
+                    <div className="text-2xl font-bold text-white">
+                      {miglioreProvincia.percentile.toFixed(0)}%
+                    </div>
+                    <div className="text-white/50 text-xs">
+                      dei candidati sotto di te
+                    </div>
+                  </div>
+                )}
+                
+                <div className="bg-white/10 rounded-lg p-3">
+                  <div className="flex items-center gap-2 text-white/60 text-xs mb-1">
+                    <Target className="w-3 h-3" />
+                    Punteggio Minimo
+                  </div>
+                  <div className="text-2xl font-bold text-white">
+                    {miglioreProvincia.minScore2024?.toFixed(1) || "N/D"}
+                  </div>
+                  <div className="text-white/50 text-xs">
+                    ultimo nominato
+                  </div>
+                </div>
+                
+                <div className="bg-white/10 rounded-lg p-3">
+                  <div className="flex items-center gap-2 text-white/60 text-xs mb-1">
+                    {(miglioreProvincia.differenzaDaMinimo || 0) >= 0 ? (
+                      <ArrowUpRight className="w-3 h-3 text-green-400" />
+                    ) : (
+                      <ArrowDownRight className="w-3 h-3 text-red-400" />
+                    )}
+                    Differenza
+                  </div>
+                  <div className={`text-2xl font-bold ${(miglioreProvincia.differenzaDaMinimo || 0) >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+                    {(miglioreProvincia.differenzaDaMinimo || 0) >= 0 ? '+' : ''}{miglioreProvincia.differenzaDaMinimo?.toFixed(1) || "0"}
+                  </div>
+                  <div className="text-white/50 text-xs">
+                    punti dal minimo
+                  </div>
+                </div>
+              </div>
+              
+              {miglioreProvincia.consiglioTesto && (
+                <div className="mt-4 p-3 bg-white/5 rounded-lg">
+                  <p className="text-white/80 text-sm">{miglioreProvincia.consiglioTesto}</p>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Riepilogo Opportunità */}
       <div className="grid grid-cols-3 gap-4">
         <Card className="glass-panel border-0 bg-green-500/10 border-green-500/20">
@@ -255,13 +356,13 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
               <li><span className="text-green-400">● Alta probabilità:</span> Il tuo punteggio supera di almeno 10 punti il minimo storico</li>
               <li><span className="text-yellow-400">● Media probabilità:</span> Il tuo punteggio è vicino al minimo storico (±10 punti)</li>
               <li><span className="text-red-400">● Bassa probabilità:</span> Il tuo punteggio è inferiore al minimo storico</li>
-              <li><span className="text-white/40">* Province senza dati:</span> Stima basata sulla media nazionale (45 punti)</li>
+              <li><span className="text-cyan-400">● Posizione stimata:</span> Calcolo basato sulla distribuzione dei punteggi nella graduatoria</li>
             </ul>
           </div>
         </div>
 
         {/* Filtri */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/50" />
             <Input 
@@ -300,6 +401,15 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
               <SelectItem value="nodata">Dati stimati</SelectItem>
             </SelectContent>
           </Select>
+
+          <Button
+            variant={showOnlyWithPosition ? "default" : "outline"}
+            onClick={() => setShowOnlyWithPosition(!showOnlyWithPosition)}
+            className={showOnlyWithPosition ? "bg-cyan-600 hover:bg-cyan-700" : "glass-input"}
+          >
+            <Hash className="w-4 h-4 mr-2" />
+            Con posizione
+          </Button>
         </div>
 
         {/* Lista Province */}
@@ -320,7 +430,7 @@ export function ResultsView({ result, onBack }: ResultsViewProps) {
       <div className="bg-white/5 rounded-xl p-4 text-center">
         <p className="text-white/50 text-xs">
           <strong>Disclaimer:</strong> I dati mostrati sono basati sui bollettini ufficiali del primo turno di nomina 2024/2025 
-          pubblicati dagli USP provinciali. Le probabilità sono stime indicative e non garantiscono l'effettiva nomina. 
+          pubblicati dagli USP provinciali. Le probabilità e le posizioni sono stime indicative e non garantiscono l'effettiva nomina. 
           I punteggi minimi possono variare in base al numero di candidati e alle disponibilità di cattedre.
         </p>
       </div>
@@ -367,82 +477,97 @@ function ProvinceCard({ province, index, userScore }: { province: ProvinceAnalys
       transition={{ duration: 0.3, delay: Math.min(index * 0.03, 0.3) }}
     >
       <Card className={`glass-panel border-0 overflow-hidden transition-colors ${getBgColor(province.probability)}`}>
-        <CardContent className="p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          
-          {/* Posizione */}
-          <div className="hidden md:flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white/60 font-bold text-sm flex-shrink-0">
-            {index + 1}
-          </div>
-
-          {/* Info Provincia */}
-          <div className="flex-1">
-            <div className="flex items-center gap-3 mb-1">
-              <h4 className="text-lg font-bold text-white">{province.provinceName}</h4>
-              <Badge variant="outline" className="text-white/60 border-white/20 text-xs">
-                {province.region}
-              </Badge>
-            </div>
+        <CardContent className="p-5">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             
-            {province.hasData ? (
-              <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70 mt-2">
-                <div className="flex items-center gap-2">
-                  <span className="text-white/50">Punteggio Minimo:</span>
-                  <span className="font-mono font-bold text-white text-base">
-                    {province.minScore2024 ? province.minScore2024.toFixed(1) : (province.minScore2023 ? province.minScore2023.toFixed(1) : "N/D")}
-                  </span>
+            {/* Posizione nel ranking */}
+            <div className="hidden md:flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white/60 font-bold text-sm flex-shrink-0">
+              {index + 1}
+            </div>
+
+            {/* Info Provincia */}
+            <div className="flex-1">
+              <div className="flex items-center gap-3 mb-1">
+                <h4 className="text-lg font-bold text-white">{province.provinceName}</h4>
+                <Badge variant="outline" className="text-white/60 border-white/20 text-xs">
+                  {province.region}
+                </Badge>
+              </div>
+              
+              {province.hasData ? (
+                <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70 mt-2">
+                  <div className="flex items-center gap-2">
+                    <span className="text-white/50">Punteggio Minimo:</span>
+                    <span className="font-mono font-bold text-white text-base">
+                      {province.minScore2024 ? province.minScore2024.toFixed(1) : (province.minScore2023 ? province.minScore2023.toFixed(1) : "N/D")}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-white/50">Differenza:</span>
+                    <span className={`font-mono font-bold text-base ${diff >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+                      {diff >= 0 ? '+' : ''}{diff.toFixed(1)}
+                    </span>
+                  </div>
+                  {province.avgScore && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-white/50">Media:</span>
+                      <span className="font-mono text-white/80">
+                        {province.avgScore.toFixed(1)}
+                      </span>
+                    </div>
+                  )}
+                  {province.numCandidati > 0 && (
+                    <div className="flex items-center gap-2">
+                      <Users className="w-3 h-3 text-white/50" />
+                      <span className="text-white/60">
+                        {province.numCandidati} candidati
+                      </span>
+                    </div>
+                  )}
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-white/50">Differenza:</span>
-                  <span className={`font-mono font-bold text-base ${diff >= 0 ? 'text-green-400' : 'text-red-400'}`}>
-                    {diff >= 0 ? '+' : ''}{diff.toFixed(1)}
-                  </span>
+              ) : (
+                <div className="text-sm text-white/50 mt-2 flex items-center gap-2">
+                  <span className="text-white/40">Punteggio stimato:</span>
+                  <span className="font-mono font-semibold text-white/70">~45 punti</span>
+                  <span className="text-xs text-white/40">(media nazionale)</span>
                 </div>
-                {province.trend !== "unknown" && (
-                  <div className="flex items-center gap-1">
-                    <span className="text-white/50">Trend:</span>
-                    {province.trend === "increasing" && (
-                      <div className="flex items-center gap-1 text-red-400">
-                        <TrendingUp className="w-4 h-4" />
-                        <span className="text-xs">In aumento</span>
-                      </div>
-                    )}
-                    {province.trend === "decreasing" && (
-                      <div className="flex items-center gap-1 text-green-400">
-                        <TrendingDown className="w-4 h-4" />
-                        <span className="text-xs">In calo</span>
-                      </div>
-                    )}
-                    {province.trend === "stable" && (
-                      <div className="flex items-center gap-1 text-yellow-400">
-                        <Minus className="w-4 h-4" />
-                        <span className="text-xs">Stabile</span>
-                      </div>
-                    )}
+              )}
+            </div>
+
+            {/* Posizione Stimata */}
+            {province.posizioneStimata && (
+              <div className="flex flex-col items-center bg-cyan-500/10 rounded-xl px-4 py-2 border border-cyan-500/20">
+                <div className="text-cyan-300 text-xs uppercase tracking-wider mb-1">Posizione</div>
+                <div className="text-2xl font-bold text-white">{province.posizioneStimata}°</div>
+                {province.percentile && (
+                  <div className="text-cyan-400/70 text-xs">
+                    Top {(100 - province.percentile).toFixed(0)}%
                   </div>
                 )}
               </div>
-            ) : (
-              <div className="text-sm text-white/50 mt-2 flex items-center gap-2">
-                <span className="text-white/40">Punteggio stimato:</span>
-                <span className="font-mono font-semibold text-white/70">~45 punti</span>
-                <span className="text-xs text-white/40">(media nazionale)</span>
+            )}
+
+            {/* Probabilità */}
+            <div className="flex items-center gap-4 w-full md:w-auto justify-between md:justify-end">
+              <div className={`px-4 py-2 rounded-full border flex items-center gap-2 ${getProbabilityColor(province.probability)}`}>
+                {getProbabilityIcon(province.probability)}
+                <span className="font-bold uppercase tracking-wide text-sm">
+                  {province.probability === "N/D" ? "Stimata" : province.probability}
+                </span>
               </div>
-            )}
-          </div>
-
-          {/* Probabilità */}
-          <div className="flex items-center gap-4 w-full md:w-auto justify-between md:justify-end">
-            <div className={`px-4 py-2 rounded-full border flex items-center gap-2 ${getProbabilityColor(province.probability)}`}>
-              {getProbabilityIcon(province.probability)}
-              <span className="font-bold uppercase tracking-wide text-sm">
-                {province.probability === "N/D" ? "Stimata" : province.probability}
-              </span>
+              {!province.hasData && (
+                <span className="text-xs text-white/40 italic">*</span>
+              )}
             </div>
-            {!province.hasData && (
-              <span className="text-xs text-white/40 italic">*</span>
-            )}
+
           </div>
 
+          {/* Consiglio */}
+          {province.consiglioTesto && province.hasData && (
+            <div className="mt-3 pt-3 border-t border-white/10">
+              <p className="text-white/60 text-sm">{province.consiglioTesto}</p>
+            </div>
+          )}
         </CardContent>
       </Card>
     </motion.div>

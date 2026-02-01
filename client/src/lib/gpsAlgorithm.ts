@@ -22,11 +22,19 @@ export interface ProvinceAnalysis {
   region: string;
   minScore2023: number | null;
   minScore2024: number | null;
+  avgScore: number | null;
+  maxScore: number | null;
+  numCandidati: number;
   probability: "Alta" | "Media" | "Bassa" | "N/D";
   probabilityScore: number; // 0-100 for sorting/visuals
   trend: "stable" | "increasing" | "decreasing" | "unknown";
   sourceUrl?: string;
   hasData: boolean;
+  // Nuovi campi per stima posizione
+  posizioneStimata: number | null;
+  percentile: number | null;
+  differenzaDaMinimo: number | null;
+  consiglioTesto: string;
 }
 
 export function calculateScore(data: {
@@ -113,6 +121,82 @@ export function calculateScore(data: {
 }
 
 /**
+ * Stima la posizione in graduatoria usando distribuzione normale approssimata
+ */
+function stimaPosizioneInGraduatoria(
+  punteggioUtente: number,
+  punteggioMax: number,
+  punteggioMin: number,
+  punteggioMedio: number,
+  numeroCandidati: number
+): { posizione: number; percentile: number } {
+  if (numeroCandidati === 0 || !punteggioMax || !punteggioMin) {
+    return { posizione: 1, percentile: 100 };
+  }
+
+  const range = punteggioMax - punteggioMin;
+  const stdDev = range / 4;
+
+  const zScore = stdDev > 0 ? (punteggioUtente - punteggioMedio) / stdDev : 0;
+
+  // Approssimazione CDF normale
+  const percentile = Math.min(100, Math.max(0, 50 * (1 + erf(zScore / Math.sqrt(2)))));
+
+  const posizione = Math.max(1, Math.round(numeroCandidati * (1 - percentile / 100)));
+
+  return { posizione, percentile };
+}
+
+/**
+ * Funzione di errore approssimata
+ */
+function erf(x: number): number {
+  const a1 = 0.254829592;
+  const a2 = -0.284496736;
+  const a3 = 1.421413741;
+  const a4 = -1.453152027;
+  const a5 = 1.061405429;
+  const p = 0.3275911;
+
+  const sign = x < 0 ? -1 : 1;
+  x = Math.abs(x);
+
+  const t = 1.0 / (1.0 + p * x);
+  const y = 1.0 - (((((a5 * t + a4) * t) + a3) * t + a2) * t + a1) * t * Math.exp(-x * x);
+
+  return sign * y;
+}
+
+/**
+ * Genera consiglio testuale
+ */
+function generaConsiglio(
+  punteggioUtente: number,
+  punteggioMin: number | null,
+  punteggioMedio: number | null,
+  posizioneStimata: number | null,
+  numeroCandidati: number
+): string {
+  if (!punteggioMin || !punteggioMedio) {
+    return "Dati storici non disponibili per questa provincia";
+  }
+
+  const diff = punteggioUtente - punteggioMin;
+
+  if (diff >= 20) {
+    return `Ottima posizione! Sei ${diff.toFixed(1)} punti sopra il minimo storico. Alta probabilità di chiamata.`;
+  } else if (diff >= 10) {
+    return `Buona posizione! Sei ${diff.toFixed(1)} punti sopra il minimo storico. Probabilità di chiamata medio-alta.`;
+  } else if (diff >= 0) {
+    return `Posizione nella media. Sei ${diff.toFixed(1)} punti sopra il minimo storico. Probabilità discreta.`;
+  } else if (diff >= -10) {
+    return `Posizione sotto la soglia storica di ${Math.abs(diff).toFixed(1)} punti. Considera province alternative.`;
+  } else {
+    return `Punteggio significativamente sotto il minimo storico (${Math.abs(diff).toFixed(1)} punti). Valuta altre province.`;
+  }
+}
+
+/**
  * Analizza le province usando i dati statici locali
  * Questa funzione viene usata come fallback quando l'API non è disponibile
  */
@@ -187,17 +271,26 @@ export function analyzeProvinces(userScore: number, classeConcorso: string): Pro
     // Default source URL if not provided
     const sourceUrl = province.sourceUrl || `https://www.voglioinsegnare.it/graduatorie-gps`;
 
+    const differenzaDaMinimo = min2025 !== null ? userScore - min2025 : (min2024 !== null ? userScore - min2024 : null);
+
     return {
       provinceId: province.id,
       provinceName: province.name,
       region: province.region,
       minScore2023: min2024,
       minScore2024: min2025,
+      avgScore: null,
+      maxScore: null,
+      numCandidati: 0,
       probability,
       probabilityScore,
       trend,
       sourceUrl,
-      hasData
+      hasData,
+      posizioneStimata: null,
+      percentile: null,
+      differenzaDaMinimo,
+      consiglioTesto: generaConsiglio(userScore, min2025 || min2024, null, null, 0)
     };
   }).sort((a, b) => b.probabilityScore - a.probabilityScore);
 }
@@ -235,16 +328,106 @@ export async function analyzeProvincesFromAPI(
       provinceId: String(item.provinciaId),
       provinceName: item.provinciaNome,
       region: item.provinciaRegione,
-      minScore2023: null, // Non abbiamo dati storici nell'API attuale
+      minScore2023: null,
       minScore2024: item.punteggioMin,
+      avgScore: item.punteggioMedio,
+      maxScore: item.punteggioMax,
+      numCandidati: item.numeroCandidati || 0,
       probability: item.probabilita as "Alta" | "Media" | "Bassa" | "N/D",
       probabilityScore: item.probabilitaScore,
       trend: "unknown" as const,
       sourceUrl: `https://www.voglioinsegnare.it/graduatorie-gps`,
-      hasData: item.hasData
+      hasData: item.hasData,
+      posizioneStimata: item.posizioneStimata,
+      percentile: item.percentile,
+      differenzaDaMinimo: item.differenzaDaMinimo,
+      consiglioTesto: item.consiglioTesto || ""
     }));
   } catch (error) {
     console.error('Errore nel recuperare dati dall\'API:', error);
     return analyzeProvinces(userScore, classeConcorso);
+  }
+}
+
+/**
+ * Simula l'effetto di punti aggiuntivi sulla posizione
+ */
+export async function simulaPuntiAggiuntivi(
+  punteggioBase: number,
+  classeConcorso: string,
+  puntiAggiuntivi: number[] = [1, 2, 3, 5, 10],
+  fascia: "1" | "2" = "1",
+  provinciaId?: number
+): Promise<any[]> {
+  try {
+    const response = await fetch(`/api/trpc/gps.simulaPuntiAggiuntivi?input=${encodeURIComponent(JSON.stringify({
+      codiceClasse: classeConcorso,
+      punteggioBase,
+      puntiAggiuntivi,
+      fascia,
+      provinciaId
+    }))}`);
+    
+    if (!response.ok) {
+      return [];
+    }
+    
+    const data = await response.json();
+    return data.result?.data || [];
+  } catch (error) {
+    console.error('Errore nella simulazione punti:', error);
+    return [];
+  }
+}
+
+/**
+ * Trova le migliori province per un punteggio
+ */
+export async function trovaMiglioriProvince(
+  punteggio: number,
+  classeConcorso: string,
+  fascia: "1" | "2" = "1",
+  limit: number = 10
+): Promise<ProvinceAnalysis[]> {
+  try {
+    const response = await fetch(`/api/trpc/gps.trovaMiglioriProvince?input=${encodeURIComponent(JSON.stringify({
+      codiceClasse: classeConcorso,
+      punteggio,
+      fascia,
+      limit
+    }))}`);
+    
+    if (!response.ok) {
+      return analyzeProvinces(punteggio, classeConcorso).slice(0, limit);
+    }
+    
+    const data = await response.json();
+    
+    if (!data.result?.data || data.result.data.length === 0) {
+      return analyzeProvinces(punteggio, classeConcorso).slice(0, limit);
+    }
+    
+    return data.result.data.map((item: any) => ({
+      provinceId: String(item.provinciaId),
+      provinceName: item.provinciaNome,
+      region: item.provinciaRegione,
+      minScore2023: null,
+      minScore2024: item.punteggioMin,
+      avgScore: item.punteggioMedio,
+      maxScore: item.punteggioMax,
+      numCandidati: item.numeroCandidati || 0,
+      probability: item.probabilita as "Alta" | "Media" | "Bassa" | "N/D",
+      probabilityScore: item.probabilitaScore,
+      trend: "unknown" as const,
+      sourceUrl: `https://www.voglioinsegnare.it/graduatorie-gps`,
+      hasData: item.hasData,
+      posizioneStimata: item.posizioneStimata,
+      percentile: item.percentile,
+      differenzaDaMinimo: item.differenzaDaMinimo,
+      consiglioTesto: item.consiglioTesto || ""
+    }));
+  } catch (error) {
+    console.error('Errore nel trovare migliori province:', error);
+    return analyzeProvinces(punteggio, classeConcorso).slice(0, limit);
   }
 }
